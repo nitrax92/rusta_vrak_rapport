@@ -183,9 +183,9 @@
 %	defined as \examname above so you cite it as \examname
 %----------------------------------------------------------------------------------------
 
-\thesistitle{DAT304 Bacheloroppgave, data \\ Bachelor rapport, \\ DFS Treningsdagbok} 
+\thesistitle{DAT215  \\ Prosjekt Rapport \\ Rusta Vrak Bilutleige} 
 %-------------------------------------------------  
-\supervisor{Sigurd M. \textsc{Assev}} 
+\supervisor{Arne \textsc{Wiklund}} 
 %-------------------------------------------------   
 
 %------------------------------------------------

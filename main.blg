@@ -4,6 +4,7 @@ Database file #1: Bibliography.bib
 Warning--I didn't find a database entry for "python:logging"
 Warning--empty year in method:iterative_fig
 Warning--empty year in paas:azure
+Warning--empty year in django:what
 Warning--empty year in tests:django
 Warning--empty year in django:tags
-(There were 5 warnings)
+(There were 6 warnings)

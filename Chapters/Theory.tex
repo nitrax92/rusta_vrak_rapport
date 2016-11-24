@@ -13,14 +13,17 @@ Med dette prosjektet ville jeg videreutvikle min kompetanse innen bruken av ramm
 \subsection{Python}
 Python er et skriptingspråk utviklet av nederlandske Guide van Rossum. Den tidligste versjonen kom frem i 1996 og det har stadig vært i utvikling siden. Python har et formål om å gjøre kode leselig og gjenbrukbar, og har et mindre fokus på ren hastighet. Utover dette har Python et fokus på å gjøre utviklingen, og debuggings fasene av prosjekter så raskt som mulig \cite[s. 11]{bachelor}.
 \subsection{Django}
-Django er et web-applikasjons rammeverk som kommer levert med en ‘batterier inkuldert' filosofi. Dette betyr at vanlig funksjonalitet som ofte blir benyttet i en web sammenheng blir levert med i grunnpakken til Django. Dette inkluderer bruker-system, URL routing, template system, administrasjons system og database object-relational mapper (ORM) \cite{django:what}.
-
-
 
 \begin{wrapfigure}{r}{4.5cm}
 \caption[Django Oversikt]{Stegene Django kjører gjennom ved et HTML request. }\label{wrap-fig:1}
 \includegraphics[width=4.5cm]{Bilder/django.png}
 \end{wrapfigure}
+
+Django er et web-applikasjons rammeverk som kommer levert med en ‘batterier inkuldert' filosofi. Dette betyr at vanlig funksjonalitet som ofte blir benyttet i en web sammenheng blir levert med i grunnpakken til Django. Dette inkluderer bruker-system, URL routing, template system, administrasjons system og database object-relational mapper (ORM) \cite{django:what}.
+
+
+
+
 
 På figur \ref{wrap-fig:1} kan man se en oversikt over hvordan Django håndterer et HTML request. 
 
@@ -36,4 +39,16 @@ Til slutt vil view samle data og generere den tilhørende template (html), som v
 
 \section{Frontend}
 På klientsiden har det i hovedsak blitt benyttet 2 større 
+
+
+\section{Verktøy}
+\begin{description}
+\item[GitHub]ble benyttet som versjons kontroll underveis i utviklingen. For hver nye feature som skulle introduseres, ble dette utviklet på en egen branch. Når utviklingen av en ny feature fungerte som planlagt, skulle den testes grundig før den ble pushet over på Master branch.
+\item[Google App Engine SDK.] Google Cloud Platform kommer utstyrt med en SDK når man skal arbeide mot Google App Engine. Denne SDK inneholder et lokalt utviklingsmiljø som kjører på samme infrastruktur som det benyttet ved hostingen. Man får også publisering og administrasjons muligheter direkte vha. enkel GUI. Denne har hovedsakelig blitt brukt som et test område underveis i utviklingen, samt. Publisering av nyere versjoner etter hvert som nettsiden har blitt oppdatert.
+\item[JetBrains PyCharm] har blitt brukt som IDE. Denne inneholder en bred rekke hjelpemidler for å gjøre utviklingsprosessen smidigere. Den støtter både utvikling av Django prosjekter og html/css/javascript. I tillegg har den et godt system for autocomplete av kode, og vil generere hint for forbedringer av bl.a. navn på funksjoner, indentering og sørger for at all kode benytter samme navn konvensjon.
+\item[LateX.]Under rapportskrivingen har typesettingssystemet LateX blitt brukt får å generere dokumentet. Dette systemet hjelper med å skape en god utforming av hele dokumentet, som gir bedre muligheter for å fokusere på selve skrivingen. LateX gir et såkalt WYSIWYM (What You See Is What You Mean), som beskriver en form for skriving hvor det resulterende dokument bedre representerer den faktiske informasjonen man arbeider med.
+
+
+
+\end{description}
 

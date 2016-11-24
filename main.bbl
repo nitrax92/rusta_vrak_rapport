@@ -1,4 +1,4 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{6}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -20,13 +20,18 @@ URL
 \newblock URL \url{https://azure.microsoft.com/nb-no/overview/what-is-paas/}.
 \newblock [Online; besøkt 23-November-2016].
 
+\bibitem[dja({\natexlab{a}})]{django:what}
+"full stack python, django", {\natexlab{a}}.
+\newblock URL \url{https://www.fullstackpython.com/django.html}.
+\newblock [Online; besøkt 23-November-2016].
+
 \bibitem[tes()]{tests:django}
 "system check framework".
 \newblock URL \url{https://docs.djangoproject.com/en/1.10/ref/checks/}.
 \newblock [Online; besøkt 22-November-2016].
 
-\bibitem[dja()]{django:tags}
-"the django template language".
+\bibitem[dja({\natexlab{b}})]{django:tags}
+"the django template language", {\natexlab{b}}.
 \newblock URL
   \url{https://docs.djangoproject.com/en/1.9/topics/templates/#the-django-template-language}.
 \newblock [Online; besøkt 22-November-2016].
