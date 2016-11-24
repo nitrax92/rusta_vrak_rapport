@@ -1,0 +1,45 @@
+\chapter{Diskusjon}
+\lhead{Diskusjon}
+
+\section{Målet}
+Målet med oppgaven var å utvikle en treningsdagbok for skyttere, og at dette produktet skulle kunne bli benyttet i form av en beta utgave etter endt bachelor periode. Dessverre, kom jeg ikke helt i mål med alt som var planlagt, og automatisk test funksjoner måtte nedprioriteres til den grad at arbeidet her ikke har startet. Derfor kaller jeg dagens versjon av produktet for en alpha versjon, som bør ha noe mer utvikling og bredere mulighet for automatisk testing før en åpen beta test kan begynne. 
+
+\section{Google App Engine}
+Google App Engine virker veldig lovende som en publiseringsløsning, og jobben med oppsett av database og drift har vært absolutt minimal. Det tok en god del lenger tid å få det første test prosjektet opp å kjøre enn antatt, da jeg som utvikler først regnet med 1-2 dager, som plutselig endte med å være rundt 2 uker med research og troubleshooting.
+
+
+Google App Engine kommer utstyrt med versjon 1.5 av Django, som ble utgitt i februar 2013. Ifølge boken Programming with Python on Google App Engine, er det anbefalt å benytte de tilgjengelige bibliotek tilbudt av Google i App Engine SDK, hvor Django 1.5 er nevnt spesifikt som det beste alternativet med tanke på integrasjonen med systemet. Etter å hadde troubleshootet prosessen av å få et Django 1.5 prosjekt til å fungere uten noen form progresjon, fikk jeg hjelp fra Bill Prin, en ingeniør ansatt i Google som arbeider direkte på Google App Engine.
+
+ 
+Her kom det frem at Django 1.5 absolutt ikke var det anbefalte alternativet å bruke, og at man heller måtte benytte et ‘App Engine Django skjelett’ som et utgangspunkt, som kommer utstyrt med den nyeste versjonen av Django, 1.9. Det er dette skjelettet som i dag ligger som utgangspunktet i prosjektet.
+
+\subsection{Forandringer i vilkår rundt Google Mail API}
+Plutselig, en dag i Mai ble vilkårene bak Google Mail API forandret, hvor de gikk fra å kunne tilby å sende 100 gratis eposter pr. døgn, med ekstra mulighet for maks 2000 eposter mot ekstra bekostning. Til det nye med maks 100 eposter i døgnet uten mulighet for å overskride dette. 
+
+
+Dersom man overskrider 100 eposter på et døgn vil en error beskjed forekomme til brukeren. Derfor måtte jeg ta en rask vurdering av å slå av systemet bak konto verifisering, slik at brukere ikke vil få tilsendt en mail ved registrering av nettsiden, og at nå kan Mail API kun benyttes mot resetting av passord.  Grunnet tidsbegrensinger kunne jeg ikke prioritere å sette opp et nytt system bak sending av epost, såpass nærme deadline for prosjektperioden.
+Dette skjedde uten noen form for uttalelser fra Google, og jeg oppdaget problemet med å plutselig møte en error beskjed ved registrering av ny test bruker etter å ha kjørt en sikkerhets prosedyre med Cloud Security Scanner. Dette ble jeg meget misfornøyd med, og gjorde at jeg oppdager hvor lite innflytelse man har som utvikler på at alt holder seg i samme stand i fremtiden, og man må være klar til å kunne vurdere alternative løsninger der man er knyttet til API systemer direkte knyttet til Google App Engine. 
+
+
+\section{Lisens}
+Dette prosjektet bruker i all hovedsak gratis og fritt tilgjengelige ressurser og utviklingsverktøy, utenom étt aspekt: Highcharts. Jeg tok kontakt med Highsoft i Mars og fikk følgende svar:
+
+«Du blir dekke av vår Non-Commercial License når du bruker Highcharts for eit skuleprosjekt, å kan i utgangspunktet bruke Highcharts gratis. 
+
+Men om DFS skal bruke Bachelor oppgåva di(Websida) når den er ferdig, så må dei kjøpe ein lisens av oss. Om DFS velg å bruke di webside når den er ferdig, så må dei komme tilbake til oss og kjøpe lisens. Det høyres ut som dei blir dekka av ein Developer License(\$590).»
+
+Dette betyr at dersom DFS skal benytte produktet, må de betale en engangssum på omtrent 5000kr for å kunne benytte verktøyet for visualisering av grafer som ligger i nettsiden videre. Jeg har også tatt dette opp med DFS direkte, og det var noe de var åpen for dersom produktet skulle være tilfredsstilendes.
+
+
+
+
+\section{Videre Arbeid}
+\subsection{Automatisk Testing}
+Django kommer utstyrt med gode muligheter for programmatisk testing, som absolutt burde bli utnyttet. Dette kan spare mye tid og hodebry når man har en versjon kjørende på nett, og for å være sikker på at alt fungerer som det skal når nye funksjoner og fikser blir introdusert. Dette vil være første prioritet å få på plass videre i utviklingen.
+
+
+\subsection{Statistikk}
+Statistikk modulen fungerer akkurat som den skal, men det er litt for tungvint når man skal introdusere nye former for grafer. I dag må man legge inn arbeid i to plasser på server siden, og to plasser i klientsiden, som ikke er optimalt dersom noen utenforstående skulle tatt over drift og videreutvikling av systemet. Derfor burde det vurderes å få satt opp et mer oversiktlig system bak dette, hvor f.eks. mer av generering kan skje på klientsiden, slik at man dermed kan benytte samme data i flere grafer.
+
+\subsection{Dokumentasjon}
+Et prosjekt som dette burde absolutt ha en dokumentasjon, dessverre ble også dette aspektet av oppgaven nedgradert i prioriteringslisten, og det er pr. i dag kun kommentarer i koden som fungerer som dokumentasjonen. Kommentarene i koden er gjort på en beskrivende måte, hvor alt av funksjoner har dokumentasjon på plass som beskriver hvordan de fungerer. Dette burde jobbes med videre for å lage et eget kompendium tilhørende produktet, slik at man ikke må grave i koden for å få svar på hvordan ting henger sammen.

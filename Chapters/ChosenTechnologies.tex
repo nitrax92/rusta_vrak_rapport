@@ -1,0 +1,104 @@
+\chapter{Valgte Teknologier}
+\label{kap:valgte}
+\lhead{Valgte Teknologier}
+
+\section{Publiseringsmetode}
+Når man skal publisere en webside, er det flere alternativer for hvordan dette kan gjøres. Da prisen er en viktig faktor til dette prosjektet, ble det i hovedsak vurdert mellom to alternativer: Virtual Private Server (VPS) hos en web-host eller PaaS (Platform as a Service) hos en skytjeneste.
+
+\paragraph{Virtual Private Server (VPS).}Det første og mest utbredte vil være en løsning som VPS, hvor man kan leie biter av en server som blir til din private virtuelle server. Ved valg av en VPS får man mye friheter, men samtidig mye ansvar: Oppsett av applikasjons server, konfigurering av database, oppsett av run-time plattform og sikkerhet er bl.a. oppgaver utvikleren selv har ansvar for å få på plass. Når man selv må ta seg av aspektet av drift, vil prisen være lavere, på bekostning av økt arbeidsmengde \citep{webhost:about}.
+
+
+\paragraph{Platform as a Service (PaaS).}Det andre alternativet er å benytte seg at det noe mer moderne konseptet av PaaS. Ved å benytte en PaaS, leier man ressurser fra en skytjeneste til hosting av sin webside. Da vil man få muligheten til å utvikle seg mot arkitekturen til den valgte skytjenesten, og dermed vil den ta seg av  konfigurering, oppsett og sikkerhet på egenhånd.
+
+\textbf{Valg:} Platform as a Service.
+
+\newpage
+\section{PaaS leverandør}
+Etter å ha valgt PaaS som en publiseringsløsning, var det neste steget å finne ut hvilen leverandør som egnet seg best til et prosjekt som dette. De følgende egenskaper vektlagt:
+
+\textbf{Tilgjengelighet.} Nettsiden må være tilgjengelig så mye som overhode mulig, spesielt på kvelder der treninger typisk forekommer. Derfor er det essensielt at den valgte PaaS har en god SLA (Service Level Agreement). 
+
+\textbf{Billig.} Både sum pr. ressurs, og tid på eventuell vedlikehold.
+
+\textbf{Geografi.} Leverandøren bør ha servere tilgjengelig i Europa, for å unngå unødvendig lange distanser og for å minimalisere ventetiden mellom forespørsel og svar.
+
+\textbf{Automatisk Skalering.} For å slippe å måtte gripe inn manuelt i forhold til mengde trafikk, burde skalering være noe leverandøren tar seg av.
+
+\subsection{Sammenlikning}
+Man har mange mulige alternativer for PaaS leverandører \citep{pass:available}, grunnet tidsbegrensinger ble kun de tre jeg hadde kjennskap til fra tidligere vurdert: Microsoft Azure, Amazon Web Services og Google Cloud Platform. I tabell \ref{table:paas} kan man se en sammenlikning av de mest relevante egenskapene for dette prosjektet.
+
+
+\begin{table}[]
+\centering
+\caption{Sammenlikning av relevante egenskaper hos PaaS leverandørene Microsoft Azure, Amazon Web Services og Google Cloud Platform}
+\label{table:paas}
+\begin{tabular}{|l|l|l|l|}
+\hline
+                                                                                     & Microsoft Azure                                                                                   & Amazon Web Services                                                                                                                                                              & Google Cloud Platform                                                                                                                                                                                                                                                                                                                                                                                     \\ \hline
+\begin{tabular}[c]{@{}l@{}}Instance Typer\\ \citep{PaaS:Wars}\end{tabular}                   & 38                                                                                                & 25                                                                                                                                                                               & 18                                                                                                                                                                                                                                                                                                                                                                                                        \\ \hline
+\begin{tabular}[c]{@{}l@{}}Nærmeste\\ Servere\end{tabular}                           & Irland \citep{azure:location}                                                                                         & Frankfurt, Tyskland \citep{aws:location}                                                                                                                                                             & Saint-Ghislain, Belgia \citep{gae:location}                                                                                                                                                                                                                                                                                                                                                                                    \\ \hline
+\begin{tabular}[c]{@{}l@{}}SLO \\ (Service Level \\ Objective)\end{tabular} & 99.95\% \citep{azure:sla}                                                                                             & 99.95\% \citep{aws:sla}                                                                                                                                                                            & 99.95\% \citep{gae:sla}                                                                                                                                                                                                                                                                                                                                                                                                     \\ \hline
+\begin{tabular}[c]{@{}l@{}}I/O Hastighet\\ \citep{io:speedwar}\end{tabular}              & 3. Plass                                                                                          & 2. Plass                                                                                                                                                                         & 1. Plass                                                                                                                                                                                                                                                                                                                                                                                                  \\ \hline
+Støttede Språk                                                                       & \begin{tabular}[c]{@{}l@{}}.Net \\ Node.js\\ Java\\ PHP\\  Python\\ Ruby\end{tabular}             & \begin{tabular}[c]{@{}l@{}}Java\\ PHP\\ Python\\ Ruby\\ .Net\end{tabular}                                                                                                        & \begin{tabular}[c]{@{}l@{}}Python\\ Java\\ PHP\\ Jode.js (beta)\\ Go\\ Custom Runtime(beta)\end{tabular}                                                                                                                                                                                                                                                                                                  \\ \hline
+Pris Model                                                                           & \begin{tabular}[c]{@{}l@{}}Pr. Minutt\\ Rundet opp \citep{azure:pp}\end{tabular}                             & \begin{tabular}[c]{@{}l@{}}Pr. Time\\ Rundet opp \citep{aws:pp}\end{tabular}                                                                                                                    & \begin{tabular}[c]{@{}l@{}}Pr. Minutt\\ Rundet opp\citep{gae:pp}\end{tabular}                                                                                                                                                                                                                                                                                                                                           \\ \hline
+Prising filopsofi                                                                    & Ingen Offesiell                                                                                   & \begin{tabular}[c]{@{}l@{}} ``Pay only  for what you use,\\ and you can start or stop \\ using a product at any time. \\ No longerm contracts \\ are required.'' \citep{aws:pricing}\end{tabular} & \begin{tabular}[c]{@{}l@{}}Forpliktelse til \\ Moores lov.\\ Cloud platformer har \\ minsket prisene\\  5-6\% årlig, \\ mens hardware \\ droppet med 20-30\%\\ \\ ``We are committed to \\ offering innovative\\ pricing mechanisms like \\ Moore’s Law based pricing,\\ sustained-use discounts and \\ sub-hour billing on top,\\ of our already low \\ on-demand prices.''\\ \citep{gae:pricing}\end{tabular} \\ \hline
+Gratis Kvoter                                                                        & \begin{tabular}[c]{@{}l@{}}Trial Account\\ 30 Dager\\ 200\$ verdi gratis. \citep{micro:free}\end{tabular} & \begin{tabular}[c]{@{}l@{}}1 År gratis Tier\\ 5 GB of Standard Storage\\ 20,000 Get Requests\\ 2,000 Put Requests\\ \citep{aws:free}\end{tabular}                                       & \begin{tabular}[c]{@{}l@{}}Daglig gratis kvoter \\ (Reset hver 24.time)\\ Frontend Instance: 28 timer\\ Backend Instance: 9 timer\\ Logger 1 GB(totalt)\\ Email: 100 meldinger\\ Mail API: 100 calls\\ 1GB data out\\ 1GB data in\\ 657,000 UrlFetch \\ + mer. \citep{gae:quota}\end{tabular}                                                                                                                      \\ \hline
+\end{tabular}
+\end{table}
+
+\newpage
+\subsection*{Resultat}
+Som man kan se i tabell \ref{table:paas}, har de tre plattformene mange av de samme egenskapene. Alle vurderer pris i forhold til tid, hvor Azure og Google Cloud Platform begge er på nøyaktighet ned på minuttet, og AWS vurderer i forhold til timer. De har litt forskjellig filosofi bak sine priser, Azure har ikke noen offisiell utenom ‘billigst mulig’, AWS lover å være uten noen form for binding for sine kunder, og Google lover å følge prisen bak hardware i forhold til pris pr. ressurs.
+
+
+ Den største forskjellen finner man i raden for Gratis Kvoter, hvor Azure og AWS begge har tidsbegrenset gratis kvoter, som vil løpe ut etter 30 dager på Azure eller 1. år på AWS. Her kommer Google ut best, hvor de har gratis kvoter blir basert på pr. døgn, som blir resatt hver 24. time. 
+ 
+
+\textbf{Valg:} Google App Engine på Google Cloud Platform.
+
+
+\section{Programmeringsspråk og Rammeverk}
+Google App Engine støtter de tre aktuelle programmeringsspråkene:
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Python
+\item Java
+\item PHP
+\end{itemize}
+Etter å ha gjort research mot de forskjellige språkene ble det klart de forskjellige har fordeler og ulemper, men de gjør i bunn og grunn det samme. Derfor ble det lagt mer vekt på personlige erfaringer og kompetanse, samt samtale med DFS. DFS hadde ingen spesielle ønsker om hvilke språk som skulle benyttes, derfor var det helt opp til min kompetanse.
+Da jeg som utvikler har mest erfaring med Python, ble det valgt som det endelige programmeringsspråket. Det vil videre gi muligheten til å jobbe med rammeverket Django, som jeg har begrenset, men positive erfaringer med fra tidligere.
+
+\textbf{Valg:} Python med rammeverket Django.
+
+\clearpage
+\section{Frontend Rammeverk}
+Verken backend rammeverket Django eller Google Cloud Platform har noen tilknytning for hvilket frontend rammeverk som kan benyttes, derfor sto jeg helt fritt til å velge. Jeg hadde tidligere erfaringer med de to rammeverkene Bootstrap og MDL (Material Design Lite), så valget blir da naturlig nok mellom disse to.
+
+
+\paragraph{Bootstrap.}Bootstrap er utviklet av Twitter og er ifølge seg selv det mest populære HTML, CSS og JavaScript mobile-first rammeverket. Styrken til Bootstrap ligger hovedsakelig i ‘grid’ systemet, som er en metode å dele opp sin side i ruter, som dynamisk forflytter seg i forhold til størrelsen på skjermen. Bootstrap har en stor brukerbase, med over 63 000 taggede spørsmål på nettsiden stackoverflow \citep{bootstrap:stackoverflow}.
+
+\paragraph{Material Design Lite.}Material Design Lite er et nyere og mindre brukt HTML, CSS og JavaScript mobile-first rammeverk. Dette rammeverket har også hentet inspirasjon fra Bootstrap, og inkluderer derfor et tilsvarende rute system som forflytter seg dynamisk i forhold til størrelsen til skjermen. For mer informasjon om MDL viser jeg til seksjonen \nameref{mdl:info} i Teoretisk Bakgrunn.
+
+
+På grunn av at Material Design Lite er en videreutvikling av det grafiske rammeverket Material Design, vil det gi muligheten til å skape en potensiell applikasjon med matchende utseende ved en senere anledning. Dette vil skape et bedre helhetlig inntrykk over produktet.
+
+
+\textbf{Valg:} Material Design Lite.
+
+
+\clearpage
+\section{Database}
+Når man skal benytte Google Cloud Platform, har man hovedsakelig  to alternativer for database:
+\begin{itemize}
+\setlength\itemsep{0em}
+\item Cloud Datastore
+\item Cloud SQL
+\end{itemize}
+\paragraph{Cloud Datastore.} Googles eget alternativ for database. Cloud Datastore er en såkalt non-rel database, som betyr at den ikke er strukturert som en relasjonsdatabase, men heller at den deler opp det vi kjenner som tabeller i SQL som en Entiteter. Hver entitet har en nøkkel (Primary Key) som er unik over hele systemet. Dersom man har denne nøkkelen, kan man raskt hente denne entiteten. Her har man som mulighet å lagre nøkler til andre entiteter i en entitet for å skape kobling mellom de forskjellige \citep{gae:devpython}.
+
+\paragraph{Cloud SQL.} Konvensjonell MySQL relasjonsdatabase. Denne er tilgjengelig for å dekke behovet for relasjonsdatabaser, alt av MySQL vil fungere som normalt, og databasen vil bli knyttet direkte til applikasjonen som blir hostet av Google App Engine. For mer informasjon om Cloud SQL viser jeg til seksjonen \nameref{database:cloudsql} i Teoretisk Bakgrunn.
+
+Djangos egen ORM (Object-Relational Mapper) er bygget mot relasjonsdatabase, og flere av de innebygde funksjoner som f.eks. Admin vil kun fungere i en relasjonsdatabase. Derfor ble Cloud SQL the mest attraktive valget.
+
+\textbf{Valg:} Cloud SQL.
+
