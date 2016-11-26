@@ -32,15 +32,7 @@ I samarbeid med firmaet utarbeidet vi noen krav over hva som er viktig å få me
 \item[Fordel å leie i lange perioder.]Det skal være en fordel å leie over lengre perioder. Systemet må ta hensyn til dette og det skal implementeres en funksjon for å kalkulere prisen.
 \end{description}
 
-\section{Litteratur Studie}
-Det aller meste av studie mot denne oppgaven har foregått på internett. Dette inkluderer hovedsakelig bruk av dokumentasjonen til de forskjellige rammeverker og plattformer. Utover dette har det blitt benyttet noen bøker som har fungert som oppslagsverk gjennom hele prosessen.
 
-\subsubsection*{Bøker}
-\begin{itemize}
-\item Code Complete 2. Edition (Steve McConnel)
-\item Programming Google App Engine with Python (Dan Sanderson)
-\item HTML and CSS Design and Build Websites (Jon Duckett)
-\end{itemize}
 
 \section{Problemløsning}
 \subsection{Arbeidsmetode}
@@ -57,45 +49,47 @@ En iterativ metode gjør det mulig å splitte et større prosjekt i mindre, mer 
 
 
 \subsection{Prosjekt Plan}
-Det første som ble gjort mot denne oppgaven var å lage en plan over alle funksjoner og arbeidsoppgaver som må med i det endelige produktet, og legge disse inn i kategorier basert på viktighet. Kategoriene går fra A til E, hvor A er viktigst og E er minst viktig.
-\subsubsection*{Prioritet A}
-\begin{description}
-\item [Lokalt utviklingsmiljø.] Installere Python, oppsett av virtualenv, Installere og integrere JetBrains PyCharm, installere Django.
-\item [Lokal MySQL.]Installasjon og opprette kobling mellom Django prosjekt og MySQL database. 
-\item [Google Cloud Platform.]Installering og oppsett av kobling mellom lokalt prosjekt og Google Cloud Platform. Dette inkluderer både hosting og database.
-\end{description}
-\subsubsection*{Prioritet B}
-\begin{description}
-\item [Database tabeller.] Planlegging og oppretting av database tabellene.
-\item [Forside.] Enkel forside 
-\item [Admin.]Mulighet til å legge til / slette biler fra database.
-\item[Generere liste over biler fra database.] Basert på bil kategori.
-\item[Bil Reservasjon.] Mulighet å legge inn er reservasjon av bil som går mellom to datoer.
-\end{description}
-
-\subsubsection*{Prioritet C}
-\begin{description}
-\item [Bilder.] Mulighet for å kunne vise bilde av bilene. Både som thumbnail og alternativt galleri.
-\item [Kalender.] Gjør det mulig for kunde å ha visuell oversikt når den spesifikke bilen er ledig for utleie. 
-\item [Epost Bekreftelse.]Send en email til kunde som bestiller. Denne skal inneholde informasjon om bestillingen.
-\item[Reservasjon Håndtering.] Legg til funksjonalitet som stopper en reservasjon med å krasje med annen eksisterende reservasjon.
-\item[Søkefunskjon.] Finne ledige biler på dato.
-\end{description}
-
-
-\subsubsection*{Prioritet D}
-\begin{description}
-\item[Pris Funksjon.]Det skal være en fordel å leie over lengre perioder. Derfor må en funksjon kunne dele ut riktig mengde rabatt over hvor mange dager som er i leieperioden. Videre skal denne kunne runde til nærmeste 5 for å slippe for mye småpenger.
-\item [PDF.] Mulighet å laste ned PDF med bestillingsdetaljer.
-\item [Filtrering av bil liste.]F.eks. kun biler som har automat. 
-\item [Videre konfigurering av Admin.]Søk bil på skiltnr., oversikt over alle reservasjoner og kunde informasjon.
-\end{description}
-
-\subsubsection*{Prioritet E}
-\begin{description}
-\item[Google Calendar.] Legg til informasjon i en Google Calendar for enkel oversikt over når biler hentes og leveres
-\end{description}
-
+Det første som ble gjort mot denne oppgaven var å lage en plan over alle funksjoner og arbeidsoppgaver som må med i det endelige produktet, og legge disse inn i kategorier basert på viktighet. Kategoriene går fra 1 til 5, og man skal gå stegvis gjennom listen. 
+ \begin{enumerate}
+ 
+  \item \textbf{Oppsett og Installasjon}
+  \begin{enumerate}
+  	\item \textbf{Lokalt Utviklingsmiljø} - Installere Python, oppsett av virtualenv, Installere og integrere JetBrains PyCharm, installere Django.
+  	\item \textbf{Lokal Database} - Installasjon og opprette kobling mellom Django prosjekt og lokal MySQL database.
+  	\item \textbf{Google Cloud Platform} - Installering og oppsett av kobling mellom lokalt prosjekt og Google Cloud Platform. Dette inkluderer både hosting og database
+  \end{enumerate}
+  
+  \item \textbf{Første Steg i Utviklingen}
+  \begin{enumerate}
+  	\item \textbf{Database Tabeller} - Planlegging og oppretting av database modeller og tabellene.
+  	\item \textbf{Forside} - Enkel forside.
+  	\item \textbf{Admin} - Mulighet til å legge til / slette biler fra opprettet database.
+  	\item \textbf{Generere liste over biler fra database} - Basert på biltype.
+  	\item \textbf{Bil Reservasjon} - Mulighet å legge inn er reservasjon av bil som går mellom to datoer.
+  \end{enumerate}
+  
+  \item \textbf{Videreutvikling}
+  \begin{enumerate} 
+  	\item \textbf{Bilder} - Mulighet for å kunne vise bilde av bilene. Både som thumbnail og alternativt galleri.
+	\item \textbf{Kalender} - Gjør det mulig for kunde å ha visuell oversikt når den spesifikke bilen er ledig for utleie. 
+	\item \textbf{Epost Bekreftelse} - Send en email til kunde som bestiller. Denne skal inneholde informasjon om bestillingen.
+	\item \textbf{Reservasjon Håndtering} - Legg til funksjonalitet som stopper en reservasjon fra å krasje med annen allerede eksisterende reservasjon.
+	\item \textbf{Søkefunskjon} - Finne ledige biler på dato.
+  \end{enumerate}
+  
+  \item \textbf{Ekstra Funksjonalitet}
+	\begin{enumerate}
+		\item \textbf{Pris Funksjon} - Det skal være en fordel å leie over lengre perioder. Derfor må en funksjon kunne dele ut riktig mengde rabatt over hvor mange dager som er i leieperioden. Videre skal denne kunne runde til nærmeste 5 for å slippe for mye småpenger.
+		\item \textbf{PDF} - Mulighet å laste ned PDF med bestillingsdetaljer.
+		\item \textbf{Filtrering av bil liste} - F.eks. kun biler som har automat. 
+		\item \textbf{Konfigurering av Admin} - Søk bil på skiltnr., oversikt over alle reservasjoner og kunde informasjon.
+	\end{enumerate}
+  \item \textbf{Dersom tid}
+  	\begin{enumerate}
+  	\item \textbf{Google Calendar} - Legg til informasjon i en Google Calendar for enkel oversikt over når biler hentes og leveres.
+  	\end{enumerate}
+ 
+ \end{enumerate}
 
 \subsection{Workflow}
 %Skrive masse om workflow, yeahh
@@ -103,4 +97,14 @@ Det første som ble gjort mot denne oppgaven var å lage en plan over alle funks
 Kunden skal kunne gå gjennom en enkel prosess for å få utført en bestiling på nettsiden. Man kan se på figur [FIG] fremgamgsmåten som skal benyttes. Man vil først møte en forside 
 \subsubsection{Administrasjon}
 
+
+\section{Litteratur Studie}
+Det aller meste av studie mot denne oppgaven har foregått på internett. Dette inkluderer hovedsakelig bruk av dokumentasjonen til de forskjellige rammeverker og plattformer. Utover dette har det blitt benyttet noen bøker som har fungert som oppslagsverk gjennom hele prosessen.
+
+\subsubsection*{Bøker}
+\begin{itemize}
+\item Code Complete 2. Edition (Steve McConnel)
+\item Programming Google App Engine with Python (Dan Sanderson)
+\item HTML and CSS Design and Build Websites (Jon Duckett)
+\end{itemize}
 \newpage

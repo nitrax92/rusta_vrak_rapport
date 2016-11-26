@@ -1,7 +1,10 @@
 \select@language {norsk}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Iterativ Utviklings Diagram}}{3}{figure.caption.14}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Iterativ Utviklings Diagram}}{3}{figure.caption.12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Django Oversikt}}{7}{figure.caption.30}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Django Oversikt}}{8}{figure.caption.54}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Utleiepris Diagram}}{10}{figure.caption.41}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Utleiepris Diagram}}{11}{figure.caption.65}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Forside i Administrasjons Side}}{12}{figure.caption.67}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Administrasjonsside - Oversikt over reservasjoner}}{13}{figure.caption.69}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Django Oversikt}}{13}{figure.caption.71}

@@ -44,7 +44,35 @@ Rabatt       & 100\% & 82.5\% & 68.0625\% & 56.151\% & 46.325\% & 38.218\% & 33.
 
 
 \clearpage
-\section{Admin}
+\section{Administrasjon Side}
+Administrasjonssiden skal hovedsakelig benyttes av bedriften for å kunne holde et styr over sine biler og bestillinger. På figur \ref{fig:admin_front} kan man se et skjermbilde av forsiden av admin siden. Denne admin siden blir generert av Django og reflekterer de konfigurasjonene som blir gjort i koden. Man velger bl.a. hvilke tabeller som er interessante å ha i admin siden, hvilke elementer som skal ligge i listen, søke funksjoner osv. Her har man også muligheten til å opprette nye admin kontoer og velge hvilke rettigheter de skal kunne ha på nettsiden.
+
+ \begin{figure}[htbp]
+	\centering
+		\includegraphics[scale=0.5]{Bilder/admin_forside.png}
+	\caption[Forside i Administrasjons Side]{Hvordan administrasjonssiden ser ut. Denne har blitt generert og konfigurert med Django. } %\ref{fig:iterative}
+	\label{fig:admin_front}
+\end{figure}
+\newpage
+\subsection{Reservasjoner i Administrasjonsside}
+På figur \ref{fig:admin_list} kan man se listen over alle ferdig reservasjoner. Her kan man se informasjon om kunden, hvilken bil som er reservert, bestillings, hente og leveringsdato, og den totale prisen for reservasjonen. \\
+For å kunne filtrere ut spesifikke reservasjonen kan man bruke søke funksjonen. Denne godtar søk på skiltnummer, bilmerke og modell, kundens etternavn og epost. Søket blir gjort å en såkalt «Contains» metode, som betyr at dersom man f.eks. gjør et søk på ‘TV’, vil reservasjonen med en bil med skiltnummer ‘TV65282’ bli med i resultatet.
+
+ \begin{figure}[htbp]
+	\centering
+		\includegraphics[width=18cm, keepaspectratio]{Bilder/admin_liste2.png}
+	\caption[Administrasjonsside - Oversikt over reservasjoner]{Liste over alle reservasjoner registert på nettsiden. } %\ref{fig:iterative}
+	\label{fig:admin_list}
+\end{figure}
+
+\subsubsection*{Legge til ny reservasjon}
+Dersom en kunde ikke ønsker å reservere gjennom nettsiden, kan ansatte også gjøre dette gjennom administrasjons siden. Som beskrevet i Workflow seksjonen, er det en enkel prosess. Man velger å legge til en ny reservasjon, fyller ut vinduet (Se Figur \ref{fig:admin_new_res}) og lagrer dette.
+
+
+\begin{wrapfigure}{r}{17cm}
+\caption[Django Oversikt]{Stegene Django kjører gjennom ved et HTML request. }\label{fig:admin_new_res}
+\includegraphics[width=4.5cm]{Bilder/admin_ny_reservasjon.png}
+\end{wrapfigure}
 
 \clearpage
 \section{Database}
@@ -52,6 +80,6 @@ Dette prosjektet benytter Django, og dermed vil dette rammeverket ta hånd om my
 
 \clearpage
 \section{Testing og Validering}
-
+Det har blitt benyttet en iterativ arbeidsmetode som beskrevet tidligere: [REF BESKREVET METODE]. Denne metoden tilsier at testing skal og må foregå underveis i utviklingen i hver syklus. Dette har blitt gjennomført vha. pythons logging bibliotek og Djangos debuggings modus. 
 
 
