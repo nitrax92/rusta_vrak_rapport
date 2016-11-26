@@ -15,7 +15,32 @@
 
 
 
+\newpage
+\section{Priser og Rabatt}
+Rusta Vrak Bilutleige ønsker at når en kunde først skal leie en bil, skal det være så lenge som mulig for å slippe å hente og levere biler mer enn nødvendig. Derfor vil bedriften gi kunder gode rabatter som øker i forhold til lenge på leieperiode. Leieprisen av de aller fleste bilene ligger på 250kr pr. døgn, og i dag tilbyr bedriften utleie for 30 dager for kun 2500kr. Dette tilsvarer en prisreduksjon på 66.6\%. For å kunne implementere et liknende system på nettsiden ble det laget en rekke løsningsforslag i Excel, dette finner man vedlagt i vedlegg OOAWNDO
 
+\subsection*{Valgte Løsning}
+Den valgte løsningen går ut på å gi kunden 17.5\% ekstra avslag hver 5. dag i leieperioden. Se tabell \ref{table:percent} for en oversikt over hvordan pris avslaget stiger. Figur \ref{fig:price_reduction} viser hvordan prisantydningen blir på biler som har en døgnpris på 250kr. Dette vil kunne bidra til at en kunde leier litt ekstra kun for å få ekstra avslag på prisen. 
+
+\begin{table}[htbp]
+\centering
+\caption{Rabatt man oppnår ved leieperioder}
+\label{table:percent}
+\begin{tabular}{|l|l|l|l|l|l|l|l|l}
+\cline{1-8}
+Antall Dager & 0-4   & 5-9    & 10-14     & 15-19    & 20-24    & 25-29    & 30      &  \\ \cline{1-8}
+Rabatt       & 100\% & 82.5\% & 68.0625\% & 56.151\% & 46.325\% & 38.218\% & 33.33\% &  \\ \cline{1-8}
+\end{tabular}
+\end{table}
+
+
+
+ \begin{figure}[htbp]
+	\centering
+		\includegraphics[scale=0.5]{Bilder/avslag.png}
+	\caption[Utleiepris Diagram]{Oversikt over rabatt som tilføres i forhold til hvor lenge en bil blir utleid. } %\ref{fig:iterative}
+	\label{fig:price_reduction}
+\end{figure}
 
 
 \clearpage
@@ -27,37 +52,6 @@ Dette prosjektet benytter Django, og dermed vil dette rammeverket ta hånd om my
 
 \clearpage
 \section{Testing og Validering}
-Det ble brukt en iterativ utviklingsmetode, og dette innebærer at testing skal foregå i hver syklus av utviklingsfasen. Dersom en ny funksjon blir introdusert, skal denne testes før man kan gå videre å jobbe på andre områder. Testingen har blitt gjennomført vha. Pythons Debugger, Pythons Logging bibliotek og Djangos debuggings modus.
 
-
-
-\subsection{Django Debugging}
-
-
-\subsubsection{Django System Check}
-Kommandoen ‘python manage.py check’ kjører en bred sjekk av hele systemet \cite{tests:django}. Dette inkluderer blant annet:
-\begin{description}
-\item[Modellene.]Går gjennom alle database modeller og sjekker om modeller, og felter er som de skal være, og reflekterer tabellene i databasen.
-\item[Admin.]Ser på alle egendefinert Admin funksjoner og oversiktstabeller. Først og fremst sjekker at alle tabeller inneholder virkelig data, og at de grunnleggende admin funsjoner (Legge til, slette, redigere) fungerer.
-\item[Kompatibilitet.]Denne vil se at koden benytter Djangos anbefalte funksjoner, og vil gi advarsel dersom en nyere versjon av Django har forandinger, og hva som bør endres for å gjøre koden kompitabel med nyere django versjoner.
-\item[Sikkerhet.]Det blir utført en noe begrenset, men en såkalt ‘low-hanging-fruit’ sjekkliste. Dette er bl.a. en sjekk om at alle POST requests inneholder en Django spesifik csrf token (Cross-site request forgery).
-\item[Template.]En gjennomgang av alle HTML som finnes til Templates folderene. Her blir det gjort en sjekk for å se om alle tags \footnote{Man kan utføre logikk i HTML i form av Tags. Disse kan f.eks. være variable, enkle IF setninger og løkker. Tags blir evaluert når den blir generert av serveren før den sendes til brukeren i form av ren HTML.\cite{django:tags}} blir benyttet på korrekt måte.
-\end{description}
-
-\subsubsection*{Debugging}
-Ved debugging ble editoren JetBrains PyCharm benyttet. Her kan man sette break points, og gå gjennom stegvis når koden treffer disse. Man vil da få en oversikt over hvilke data som befinner seg i variablene, og hvilke trinn som blir utført etter hver linje kode.
-
-\subsubsection*{Logging}
-Loggingen ble utført ved å bruke Python biblioteket ‘Logging’. Her har man muligheten til å legge logge funksjoner rundt om i koden, og disse loggene kan differensieres i 5 nivåer \citep{python:logging}:
-
-\begin{description}
-\item[Critial]Alvorlig feil, denne indikerer at programmet I seg selv kan være i en stand at den ikke kan fortsette uten inngrep.
-\item[Error]Stor feil, programmet har ikke vært i stand til å kjøre en  funksjon.
-\item[Warning]Indikering på at noe uventet har forekommet, programmet skal fortsatte fungere.
-\item[Info]Bekreftelse på at alt fungerer som det skal.
-\item[Debug]Detaljert informasjon, skal benyttes når man skal diagnostiere et problem.
-\end{description}
-
-Disse loggene blir presentert i sanntid i det lokale utviklingsmiljøet, som gjør at man raskt kan identifisere hvor eventuelle feil forekommer. Når nettsiden blir koblet til gjennom Google App Engine, vil logger bli lagret til en egen modul på kontrollpanelet %\cite{dfsdagbok}.
 
 

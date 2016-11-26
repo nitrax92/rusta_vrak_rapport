@@ -1,4 +1,4 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{7}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -14,6 +14,10 @@ Martin Engen.
 URL
   \url{https://www.inflectra.com/GraphicsViewer.aspx?url=Methodologies/Waterfall.xml&name=wordml://03000005.png}.
 \newblock [Online; besøkt 14-November-2016].
+
+\bibitem[ite()]{iterative:development}
+URL \url{https://www.inflectra.com/Methodologies/Waterfall.aspx}.
+\newblock [Online; besøkt 23-November-2016].
 
 \bibitem[paa()]{paas:azure}
 "what is paas?".
