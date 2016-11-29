@@ -1,6 +1,6 @@
 \select@language {norsk}
 \contentsline {chapter}{Innhold}{i}{dummy.1}
-\contentsline {chapter}{List of Figures}{ii}{dummy.3}
+\contentsline {chapter}{List of Figures}{iii}{dummy.3}
 \contentsline {chapter}{\numberline {1}Innlending}{1}{chapter.5}
 \contentsline {section}{\numberline {1.1}Bakgrunn}{1}{section.6}
 \contentsline {section}{\numberline {1.2}Problemdefinisjon}{1}{section.7}
@@ -21,16 +21,19 @@
 \contentsline {section}{\numberline {2.2}Programmeringsspr\IeC {\r a}k og Rammeverk}{8}{section.51}
 \contentsline {subsection}{\numberline {2.2.1}Python}{8}{subsection.52}
 \contentsline {subsection}{\numberline {2.2.2}Django}{8}{subsection.53}
-\contentsline {section}{\numberline {2.3}Frontend}{9}{section.55}
-\contentsline {section}{\numberline {2.4}Verkt\IeC {\o }y}{9}{section.56}
-\contentsline {chapter}{\numberline {3}L\IeC {\o }sning}{10}{chapter.57}
-\contentsline {section}{\numberline {3.1}Krav}{10}{section.58}
-\contentsline {subsection}{\numberline {3.1.1}Ikke-funksjonelle krav}{10}{subsection.59}
-\contentsline {section}{\numberline {3.2}Designspesifikasjoner}{10}{section.60}
-\contentsline {section}{\numberline {3.3}Implementasjon}{10}{section.61}
-\contentsline {section}{\numberline {3.4}Priser og Rabatt}{11}{section.62}
-\contentsline {section}{\numberline {3.5}Administrasjon Side}{12}{section.66}
-\contentsline {subsection}{\numberline {3.5.1}Reservasjoner i Administrasjonsside}{13}{subsection.68}
-\contentsline {section}{\numberline {3.6}Database}{14}{section.72}
-\contentsline {section}{\numberline {3.7}Testing og Validering}{15}{section.73}
+\contentsline {section}{\numberline {2.3}Front-end}{9}{section.55}
+\contentsline {subsection}{\numberline {2.3.1}Bootstrap}{9}{subsection.56}
+\contentsline {subsubsection}{\numberline {2.3.1.1}Skalerbart}{9}{subsubsection.57}
+\contentsline {subsubsection}{\numberline {2.3.1.2}Komponenter}{9}{subsubsection.58}
+\contentsline {section}{\numberline {2.4}Verkt\IeC {\o }y}{9}{section.59}
+\contentsline {chapter}{\numberline {3}L\IeC {\o }sning}{11}{chapter.60}
+\contentsline {section}{\numberline {3.1}Krav}{11}{section.61}
+\contentsline {subsection}{\numberline {3.1.1}Ikke-funksjonelle krav}{11}{subsection.62}
+\contentsline {section}{\numberline {3.2}Designspesifikasjoner}{11}{section.63}
+\contentsline {section}{\numberline {3.3}Implementasjon}{11}{section.64}
+\contentsline {section}{\numberline {3.4}Priser og Rabatt}{12}{section.65}
+\contentsline {section}{\numberline {3.5}Administrasjon Side}{13}{section.69}
+\contentsline {subsection}{\numberline {3.5.1}Reservasjoner i Administrasjonsside}{14}{subsection.71}
+\contentsline {section}{\numberline {3.6}Database}{15}{section.75}
+\contentsline {section}{\numberline {3.7}Testing og Validering}{16}{section.76}
 \vspace {2em}

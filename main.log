@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.14)  26 NOV 2016 16:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.14)  28 NOV 2016 17:50
 entering extended mode
 **./main.tex
 (main.tex
@@ -1017,7 +1017,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-<logo.jpg, id=139, 206.4513pt x 28.4262pt>
+<logo.jpg, id=151, 206.4513pt x 28.4262pt>
 File: logo.jpg Graphic file (type jpg)
  <use logo.jpg>
 Package pdftex.def Info: logo.jpg used on input line 138.
@@ -1039,13 +1039,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ------------------------------------------------------------------------------
  Table of Contents
 ------------------------------------------------------------------------------
-(main.toc)
+(main.toc [1
+
+])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [1
-
-]
+ [2]
 ------------------------------------------------------------------------------
  List of Figures
 ------------------------------------------------------------------------------
@@ -1053,7 +1053,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [2
+ [3
 
 
 ] (Chapters/Introduction.tex
@@ -1065,21 +1065,21 @@ Kapittel 1.
 
 
 
-] <Bilder/iterativ_utvikling.png, id=217, 874.26625pt x 377.41pt>
+] <Bilder/iterativ_utvikling.png, id=234, 874.26625pt x 377.41pt>
 File: Bilder/iterativ_utvikling.png Graphic file (type png)
 
 <use Bilder/iterativ_utvikling.png>
-Package pdftex.def Info: Bilder/iterativ_utvikling.png used on input line 45.
+Package pdftex.def Info: Bilder/iterativ_utvikling.png used on input line 43.
 (pdftex.def)             Requested size: 437.13205pt x 188.70453pt.
  [2] [3 <./Bilder/iterativ_utvikling.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 106.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 104.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 106.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 104.
  [4] [5])
 (Chapters/Theory.tex
 Kapittel 2.
@@ -1088,37 +1088,37 @@ Kapittel 2.
 ------------------------------------------------------------------------------
 [6
 
-] [7] <Bilder/django.png, id=286, 319.94531pt x 712.16063pt>
+] [7] <Bilder/django.png, id=304, 319.94531pt x 712.16063pt>
 File: Bilder/django.png Graphic file (type png)
 
 <use Bilder/django.png>
 Package pdftex.def Info: Bilder/django.png used on input line 43.
 (pdftex.def)             Requested size: 128.0374pt x 285.00047pt.
- [8 <./Bilder/django.png>]) (Chapters/Solution.tex
-[9]
+ [8 <./Bilder/django.png>] [9]) (Chapters/Solution.tex
+[10]
 Kapittel 3.
 ------------------------------------------------------------------------------
  3 L\IeC {\o }sning
 ------------------------------------------------------------------------------
-[10
+[11
 
-] <Bilder/avslag.png, id=305, 831.105pt x 402.303pt>
+] <Bilder/avslag.png, id=327, 831.105pt x 402.303pt>
 File: Bilder/avslag.png Graphic file (type png)
 
 <use Bilder/avslag.png>
 Package pdftex.def Info: Bilder/avslag.png used on input line 40.
 (pdftex.def)             Requested size: 415.55148pt x 201.151pt.
- [11 <./Bilder/avslag.png>]
-<Bilder/admin_forside.png, id=315, 898.85812pt x 660.21657pt>
+ [12 <./Bilder/avslag.png>]
+<Bilder/admin_forside.png, id=337, 898.85812pt x 660.21657pt>
 File: Bilder/admin_forside.png Graphic file (type png)
 
 <use Bilder/admin_forside.png>
 Package pdftex.def Info: Bilder/admin_forside.png used on input line 52.
 (pdftex.def)             Requested size: 449.42796pt x 330.10747pt.
- [12
+ [13
 
  <./Bilder/admin_forside.png>]
-<Bilder/admin_liste2.png, id=322, 1840.62656pt x 840.89156pt>
+<Bilder/admin_liste2.png, id=344, 1840.62656pt x 840.89156pt>
 File: Bilder/admin_liste2.png Graphic file (type png)
 
 <use Bilder/admin_liste2.png>
@@ -1129,18 +1129,18 @@ Overfull \hbox (40.47403pt too wide) in paragraph at lines 63--64
  [][] 
  []
 
-<Bilder/admin_ny_reservasjon.png, id=324, 532.99126pt x 436.63126pt>
+<Bilder/admin_ny_reservasjon.png, id=346, 532.99126pt x 436.63126pt>
 File: Bilder/admin_ny_reservasjon.png Graphic file (type png)
 
 <use Bilder/admin_ny_reservasjon.png>
 Package pdftex.def Info: Bilder/admin_ny_reservasjon.png used on input line 74.
 
 (pdftex.def)             Requested size: 128.0374pt x 104.88692pt.
- [13 <./Bilder/admin_liste2.png> <./Bilder/admin_ny_reservasjon.png>] [14
+ [14 <./Bilder/admin_liste2.png> <./Bilder/admin_ny_reservasjon.png>] [15
 
-]) (main.bbl [15
+]) (main.bbl [16
 
-]) [16
+]) [17
 
 ]
 ------------------------------------------------------------------------------
@@ -1152,17 +1152,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 233.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 233.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 233.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8DCCA0C48D6E8F7A6338BD1064DF2963;5253.
+(rerunfilecheck)             Checksum: B16804CC1F5E54156497FE748EC1D52E;5716.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 233.
  ) 
 Here is how much of TeX's memory you used:
- 16148 strings out of 493335
- 227394 string characters out of 3139259
+ 16156 strings out of 493335
+ 227504 string characters out of 3139259
  427421 words of memory out of 3000000
- 19283 multiletter control sequences out of 15000+200000
+ 19286 multiletter control sequences out of 15000+200000
  14671 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,11n,58p,628b,594s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,11n,58p,701b,594s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
@@ -1175,9 +1175,9 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (19 pages, 572776 bytes).
+Output written on main.pdf (21 pages, 577693 bytes).
 PDF statistics:
- 422 PDF objects out of 1000 (max. 8388607)
- 101 named destinations out of 1000 (max. 500000)
- 308 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 445 PDF objects out of 1000 (max. 8388607)
+ 106 named destinations out of 1000 (max. 500000)
+ 332 words of extra memory for PDF output out of 10000 (max. 10000000)
 
