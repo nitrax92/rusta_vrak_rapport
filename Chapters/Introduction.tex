@@ -90,10 +90,29 @@ Det første som ble gjort mot denne oppgaven var å lage en plan over alle funks
  \end{enumerate}
 
 \subsection{Workflow}
-%Skrive masse om workflow, yeahh
 \subsubsection{Kunde}
-Kunden skal kunne gå gjennom en enkel prosess for å få utført en bestiling på nettsiden. Man kan se på figur [FIG] fremgamgsmåten som skal benyttes. Man vil først møte en forside 
-\subsubsection{Administrasjon}
+En kunde skal kunne benytte nettsiden som et bestillingsverktøy. Kunden skal selv ha kontroll på hvordan han finner frem til bilen som passer best. %Hovedsakelig skal man ha 2 alternativer: 
+%Søke basert på dato i leieperioden og biltype, \textbf{eller} se en komplett liste over alle biler, evt. basert på kategori. 
+\subsubsection{Fremgangsmåte}
+\begin{steps}{Steg}
+\step \textbf{Forside}\\Man starter med å se på forsiden av nettsiden. Denne skal inneholde generell informasjon om bedriften, litt om hvordan leien fungerer, priser, vilkår osv. Utover dette skal det her være 2 muligheter for kunden å gå videre i reservasjonsprosessen:\\
+\textbf{Søke på Dato} Her skal systemet finne ut hvilke biler som er ledige i en leieperiode, og returnere disse. \\
+\textbf{Se Biler} Man kan se alle bilene innenfor en gitt kategori, eller alle biler i systemet.
+
+\step \textbf{Liste over biler}\\Uavhengig av fremgangsmåten kunden har valgt, vil man nå presenteres med en liste over biler. Listen inneholder generell informasjon om hver av bilene, samt bilde og døgnpris i leien.\\
+Utifra denne listen velger kunden å gå videre på en av bilene.
+
+\step \textbf{Spesifikk bil}\\Nå befinner kunden seg på siden til den bestemte bilen. Her skal informasjon om bilen og eventuelle bilder presenteres.
+Dersom kunden ikke søkte på dato i Steg 1, må det her sjekkes når bilen er ledig for utleie. Dette skal visualiseres i form av en kalender.\\
+Videre skal kunden fylle inn dato i leieperioden (Dersom man søker på Dato i Steg 1, skal dette bli fylt inn automatisk), så gå videre.
+
+\step \textbf{Kontakt Informasjon}\\Det siste steget av reservasjonsprosessen. Her skal kunden fylle inn kontakt informasjon, og kunne se informasjon om reservasjonen og den valgte bil.\\
+Når informasjonen er fylt inn trykker brukeren på Fullfør Bestilling, som skal videreføre til en bekreftelses side om hele bestillingen. Nå skal også en epost bli sendt til kunden som inneholder nødvendig informasjon om bestillingen.
+
+\step \textbf{Last ned informasjon som PDF (Valgfritt)}\\Brukeren skal ha mulighet til å laste ned ordre bekreftelse som PDF 
+
+\end{steps}
+\subsubsection{Bedrift}
 
 
 \section{Litteratur Studie}
