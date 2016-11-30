@@ -21,7 +21,7 @@ Lag en nettside for bilutleie firmaet Rusta Vrak Bilutleige. Denne nettsiden ska
 Nettsiden skal også kunne benyttes av firmaet for å få en oversikt over bilene som er for utleie, samt kunder som leier eller har leid bil. Det må være mulig å legge til, fjerne og redigere bilene for utleie forløpende.
 
 
-\subsection{Krav}
+\subsection{Krav} \label{kravliste1}
 I samarbeid med firmaet utarbeidet vi noen krav over hva som er viktig å få med i nettsiden. Disse kan være både funksjonelle og ikke-funksjonelle.
 \begin{description}
 \item[Lett å bruke.]Nettsiden skal være enkel å bruke, og skal helst være så intuitiv som mulig. Det betyr at den ikke skal for komplisert i bruk.
@@ -46,7 +46,7 @@ En iterativ metode gjør det mulig å splitte et større prosjekt i mindre, mer 
 \end{figure}
 
 
-\subsection{Prosjekt Plan}
+\subsection{Prosjekt Plan} \label{kravliste2}
 Det første som ble gjort mot denne oppgaven var å lage en plan over alle funksjoner og arbeidsoppgaver som må med i det endelige produktet, og legge disse inn i kategorier basert på viktighet. Kategoriene går fra 1 til 5, og planen var å gå stegvis gjennom listen. 
  \begin{enumerate}
  
@@ -88,31 +88,6 @@ Det første som ble gjort mot denne oppgaven var å lage en plan over alle funks
   	\end{enumerate}
  
  \end{enumerate}
-
-\subsection{Workflow}
-\subsubsection{Kunde}
-En kunde skal kunne benytte nettsiden som et bestillingsverktøy. Kunden skal selv ha kontroll på hvordan han finner frem til bilen som passer best. %Hovedsakelig skal man ha 2 alternativer: 
-%Søke basert på dato i leieperioden og biltype, \textbf{eller} se en komplett liste over alle biler, evt. basert på kategori. 
-\subsubsection{Fremgangsmåte}
-\begin{steps}{Steg}
-\step \textbf{Forside}\\Man starter med å se på forsiden av nettsiden. Denne skal inneholde generell informasjon om bedriften, litt om hvordan leien fungerer, priser, vilkår osv. Utover dette skal det her være 2 muligheter for kunden å gå videre i reservasjonsprosessen:\\
-\textbf{Søke på Dato} Her skal systemet finne ut hvilke biler som er ledige i en leieperiode, og returnere disse. \\
-\textbf{Se Biler} Man kan se alle bilene innenfor en gitt kategori, eller alle biler i systemet.
-
-\step \textbf{Liste over biler}\\Uavhengig av fremgangsmåten kunden har valgt, vil man nå presenteres med en liste over biler. Listen inneholder generell informasjon om hver av bilene, samt bilde og døgnpris i leien.\\
-Utifra denne listen velger kunden å gå videre på en av bilene.
-
-\step \textbf{Spesifikk bil}\\Nå befinner kunden seg på siden til den bestemte bilen. Her skal informasjon om bilen og eventuelle bilder presenteres.
-Dersom kunden ikke søkte på dato i Steg 1, må det her sjekkes når bilen er ledig for utleie. Dette skal visualiseres i form av en kalender.\\
-Videre skal kunden fylle inn dato i leieperioden (Dersom man søker på Dato i Steg 1, skal dette bli fylt inn automatisk), så gå videre.
-
-\step \textbf{Kontakt Informasjon}\\Det siste steget av reservasjonsprosessen. Her skal kunden fylle inn kontakt informasjon, og kunne se informasjon om reservasjonen og den valgte bil.\\
-Når informasjonen er fylt inn trykker brukeren på Fullfør Bestilling, som skal videreføre til en bekreftelses side om hele bestillingen. Nå skal også en epost bli sendt til kunden som inneholder nødvendig informasjon om bestillingen.
-
-\step \textbf{Last ned informasjon som PDF (Valgfritt)}\\Brukeren skal ha mulighet til å laste ned ordre bekreftelse som PDF 
-
-\end{steps}
-\subsubsection{Bedrift}
 
 
 \section{Litteratur Studie}
