@@ -1,42 +1,43 @@
 \select@language {norsk}
-\contentsline {chapter}{Innhold}{i}{dummy.1}
-\contentsline {chapter}{List of Figures}{ii}{dummy.3}
-\contentsline {chapter}{\numberline {1}Innlending}{1}{chapter.5}
-\contentsline {section}{\numberline {1.1}Bakgrunn}{1}{section.6}
-\contentsline {section}{\numberline {1.2}Problemdefinisjon}{1}{section.7}
-\contentsline {subsection}{\numberline {1.2.1}Oppgaven}{1}{subsection.8}
-\contentsline {subsection}{\numberline {1.2.2}Krav}{2}{subsection.9}
-\contentsline {section}{\numberline {1.3}Probleml\IeC {\o }sning}{2}{section.10}
-\contentsline {subsection}{\numberline {1.3.1}Arbeidsmetode}{2}{subsection.11}
-\contentsline {subsection}{\numberline {1.3.2}Prosjekt Plan}{3}{subsection.13}
-\contentsline {section}{\numberline {1.4}Litteratur Studie}{4}{section.37}
-\contentsline {chapter}{\numberline {2}Oversikt over valgte Teknologier}{5}{chapter.39}
-\contentsline {section}{\numberline {2.1}Publisering}{5}{section.40}
-\contentsline {subsection}{\numberline {2.1.1}Platform as a Service}{5}{subsection.41}
-\contentsline {subsection}{\numberline {2.1.2}Fordeler ved PaaS}{5}{subsection.42}
-\contentsline {subsection}{\numberline {2.1.3}Valg av PaaS Leverand\IeC {\o }r}{6}{subsection.45}
-\contentsline {section}{\numberline {2.2}Programmeringsspr\IeC {\r a}k og Rammeverk}{7}{section.48}
-\contentsline {subsection}{\numberline {2.2.1}Python}{7}{subsection.49}
-\contentsline {subsection}{\numberline {2.2.2}Django}{7}{subsection.50}
-\contentsline {section}{\numberline {2.3}Front-end}{8}{section.52}
-\contentsline {subsection}{\numberline {2.3.1}Bootstrap}{8}{subsection.53}
-\contentsline {subsection}{\numberline {2.3.2}JQuery}{8}{subsection.56}
-\contentsline {section}{\numberline {2.4}Verkt\IeC {\o }y}{8}{section.57}
+\contentsline {chapter}{Sammendrag}{i}{chapter*.1}
+\contentsline {chapter}{Innhold}{ii}{dummy.2}
+\contentsline {chapter}{List of Figures}{iv}{dummy.4}
+\contentsline {chapter}{\numberline {1}Innlending}{1}{chapter.6}
+\contentsline {section}{\numberline {1.1}Bakgrunn}{1}{section.7}
+\contentsline {section}{\numberline {1.2}Problemdefinisjon}{1}{section.8}
+\contentsline {subsection}{\numberline {1.2.1}Oppgaven}{1}{subsection.9}
+\contentsline {subsection}{\numberline {1.2.2}Krav}{2}{subsection.10}
+\contentsline {section}{\numberline {1.3}Probleml\IeC {\o }sning}{2}{section.11}
+\contentsline {subsection}{\numberline {1.3.1}Prosjekt Plan}{2}{subsection.12}
+\contentsline {subsection}{\numberline {1.3.2}Arbeidsmetode}{4}{subsection.36}
+\contentsline {section}{\numberline {1.4}Litteratur Studie}{4}{section.38}
+\contentsline {chapter}{\numberline {2}Oversikt over valgte Teknologier}{5}{chapter.40}
+\contentsline {section}{\numberline {2.1}Publisering}{5}{section.41}
+\contentsline {subsection}{\numberline {2.1.1}Platform as a Service}{5}{subsection.42}
+\contentsline {subsection}{\numberline {2.1.2}Fordeler ved PaaS}{5}{subsection.43}
+\contentsline {subsection}{\numberline {2.1.3}Valg av PaaS Leverand\IeC {\o }r}{6}{subsection.46}
+\contentsline {section}{\numberline {2.2}Programmeringsspr\IeC {\r a}k og Rammeverk}{7}{section.49}
+\contentsline {subsection}{\numberline {2.2.1}Python}{7}{subsection.50}
+\contentsline {subsection}{\numberline {2.2.2}Django}{7}{subsection.51}
+\contentsline {section}{\numberline {2.3}Front-end}{8}{section.53}
+\contentsline {subsection}{\numberline {2.3.1}Bootstrap}{8}{subsection.54}
+\contentsline {section}{\numberline {2.4}Verkt\IeC {\o }y}{9}{section.57}
 \contentsline {chapter}{\numberline {3}L\IeC {\o }sning}{10}{chapter.58}
 \contentsline {section}{\numberline {3.1}Krav}{10}{section.59}
-\contentsline {subsection}{\numberline {3.1.1}Workflow}{10}{subsection.60}
-\contentsline {subsubsection}{\numberline {3.1.1.1}Fremgangsm\IeC {\r a}te}{10}{subsubsection.61}
-\contentsline {section}{\numberline {3.2}Designspesifikasjoner}{11}{section.67}
-\contentsline {section}{\numberline {3.3}Nettsiden}{12}{section.68}
-\contentsline {subsection}{\numberline {3.3.1}Design}{12}{subsection.69}
-\contentsline {subsubsection}{\numberline {3.3.1.1}Forsiden}{12}{subsubsection.70}
-\contentsline {subsubsection}{\numberline {3.3.1.2}Bil Liste}{12}{subsubsection.72}
-\contentsline {subsubsection}{\numberline {3.3.1.3}Individuelle Biler}{13}{subsubsection.74}
-\contentsline {subsubsection}{\numberline {3.3.1.4}Kontakt Informasjon}{13}{subsubsection.77}
-\contentsline {subsubsection}{\numberline {3.3.1.5}Kvittering}{13}{subsubsection.79}
-\contentsline {section}{\numberline {3.4}Administrasjon Side}{15}{section.80}
-\contentsline {subsection}{\numberline {3.4.1}Reservasjoner i Administrasjonsside}{16}{subsection.82}
-\contentsline {section}{\numberline {3.5}Priser og Rabatt}{17}{section.86}
-\contentsline {section}{\numberline {3.6}Database}{18}{section.90}
-\contentsline {section}{\numberline {3.7}Testing og Validering}{19}{section.91}
-\vspace {2em}
+\contentsline {subsubsection}{\numberline {3.1.0.1}Workflow}{10}{subsubsection.60}
+\contentsline {section}{\numberline {3.2}Designspesifikasjoner}{11}{section.66}
+\contentsline {section}{\numberline {3.3}Nettsiden}{12}{section.69}
+\contentsline {subsection}{\numberline {3.3.1}Forsiden}{12}{subsection.70}
+\contentsline {subsection}{\numberline {3.3.2}Liste over Biler}{13}{subsection.72}
+\contentsline {subsection}{\numberline {3.3.3}Individuelle Biler}{14}{subsection.75}
+\contentsline {subsection}{\numberline {3.3.4}Kontaktskjema}{15}{subsection.81}
+\contentsline {subsection}{\numberline {3.3.5}Bekreftelse}{16}{subsection.83}
+\contentsline {section}{\numberline {3.4}Administrasjon}{17}{section.85}
+\contentsline {subsection}{\numberline {3.4.1}Reservasjoner i Administrasjonsside}{18}{subsection.87}
+\contentsline {section}{\numberline {3.5}Database}{19}{section.91}
+\contentsline {section}{\numberline {3.6}Priser og Rabatt}{19}{section.93}
+\contentsline {section}{\numberline {3.7}Testing og Validering}{22}{section.98}
+\contentsline {subsection}{\numberline {3.7.1}Django Debugging}{22}{subsection.99}
+\contentsline {subsection}{\numberline {3.7.2}Django System Check}{22}{subsection.100}
+\contentsline {chapter}{\numberline {4}Diskusjon}{23}{chapter.102}
+\contentsline {chapter}{\numberline {5}Konklusjon}{24}{chapter.103}

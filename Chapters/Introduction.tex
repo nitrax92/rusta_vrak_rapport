@@ -1,11 +1,5 @@
 \lhead{Introduksjon}
 \chapter{Innlending}
-%Verden blir i stadig større grad mer digital og folk flest har i dag en liten datamaskin tilgjengelig i form av Smartphone til alle tider. Utvikling av det digitale har skjedd utrolig raskt, og en stor menge arbeid gjenstår for å kunne utnytte alle de tilgjengelige digitale verktøy til størst mulig grad. 
-%Formålet med denne oppgaven er å digitalisere noe som pr. i dag kun finnes i papir format, 
-%Denne bacheloroppgaven fokuserer akkurat på dette, digitalisere noe som per i dag finnes kun i papir format. 
-
-%\newpage
-
 \section{Bakgrunn}
 Rusta Vrak bilutleige er et lite firma basert i Førde og Jøster i Sogn og Fjordane. Utleie firmaet blir driftet av verkstedmesteren Stein Olav Erikstad, og målet er å kunne tilby utleie av greie og fult funksjonelle biler til en rimelig pris. Firmaet ble startet i 2013, og har i dag en flåte på over 20 biler. Rusta Vrak fungerer i dag som et sideprosjekt, men det har gode muligheter for vekst i fremtiden, men dersom et bilutleige firma ønsker å være kompetitivt, er det viktig å kunne tilby en digital form for tilgjengelighet på lik linje som de mer etablerte bedriftene. Derfor har Rusta Vrak Bilutleige uttryket ønske om å få en 
 
@@ -25,29 +19,17 @@ Nettsiden skal også kunne benyttes av firmaet for å få en oversikt over bilen
 I samarbeid med firmaet utarbeidet vi noen krav over hva som er viktig å få med i nettsiden. Disse kan være både funksjonelle og ikke-funksjonelle.
 \begin{description}
 \item[Lett å bruke.]Nettsiden skal være enkel å bruke, og skal helst være så intuitiv som mulig. Det betyr at den ikke skal for komplisert i bruk.
+\item[Skalere til alle skjermstørrelser.]Skalering mellom skjermstørrelser. Gjøre nettsiden like god å bruke på smartphone som på PCer.
 \item[Selvstendig og Billig.]Firmaet er lite, og derfor skal nettsiden kunne være så selvstendig som mulig. Dvs. arbeid med drift og opprettholdning skal være minimal. Utover dette burde hosting av nettsiden også være rimelig.
-\item[Håndere alle reservasjoner.]Nettsiden skal både fungere som et reservasjons system for brukere, og som et verktøy for bedriften. Derfor skal brukere kunne benytte nettsiden for reservasjoner, og ansatt skal ha et administrasjons område hvor det er mulig å legge til nye bestillinger.
+\item[Håndere alle reservasjoner.]Nettsiden skal både fungere som et bestillingsverktøy for kunder, og som et verktøy for bedriften. Derfor skal brukere kunne benytte nettsiden for reservasjoner, og ansatt skal ha et administrasjons område hvor det er mulig å legge til nye bestillinger.
 \item[Fordel å leie i lange perioder.]Det skal være en fordel å leie over lengre perioder. Systemet må ta hensyn til dette og det skal implementeres en funksjon for å kalkulere prisen.
 \end{description}
 
 
 
 \section{Problemløsning}
-\subsection{Arbeidsmetode}
-Utviklingen av dette prosjektet har benyttet en iterativ og inkrementell arbeidsmetode. Denne metoden går ut på å gjennomføre utviklingen stegvis, man begynner utviklingen med et skjelett, som man vil videre legge til litt funksjonalitet, og deretter komme tilbake og legge til mer på toppen av dette igjen. Ved å benytte en slik prosess, blir det mulig å utvikle flere områder på nettsiden samtidig uten at det nødvendigvis krasjer mellom de forskjellige funksjonene.
-
-En iterativ metode gjør det mulig å splitte et større prosjekt i mindre, mer håndterlige biter. Utvikling av kode, planlegging og design blir gjennomført i gjenntatte sykluser \cite{method:iterative_fig}. Dermed kan man følge figur \ref{fig:iterative_development} for prosessen gjennom hele utviklingen.
-
- \begin{figure}[htbp]
-	\centering
-		\includegraphics[scale=0.5]{Bilder/iterativ_utvikling.png}
-	\caption[Iterativ Utviklings Diagram]{Oversikt over trinnene per syklus i iterativ utvikling \cite{iterative:development}. } %\ref{fig:iterative}
-	\label{fig:iterative_development}
-\end{figure}
-
-
 \subsection{Prosjekt Plan} \label{kravliste2}
-Det første som ble gjort mot denne oppgaven var å lage en plan over alle funksjoner og arbeidsoppgaver som må med i det endelige produktet, og legge disse inn i kategorier basert på viktighet. Kategoriene går fra 1 til 5, og planen var å gå stegvis gjennom listen. 
+Det første som ble gjort mot denne oppgaven var å lage en plan over alle funksjoner og arbeidsoppgaver som må med i det endelige produktet, og legge disse inn i kategorier basert på viktighet. Kategoriene går fra 1 til 5, og planen var å gå stegvis gjennom denne listen. 
  \begin{enumerate}
  
   \item \textbf{Oppsett og Installasjon}
@@ -88,6 +70,20 @@ Det første som ble gjort mot denne oppgaven var å lage en plan over alle funks
   	\end{enumerate}
  
  \end{enumerate}
+ 
+ 
+\subsection{Arbeidsmetode}
+Utviklingen av dette prosjektet har benyttet en iterativ og inkrementell arbeidsmetode. Denne metoden går ut på å gjennomføre utviklingen stegvis, man begynner utviklingen med et skjelett, som man vil videre legge til litt funksjonalitet, og deretter komme tilbake og legge til mer på toppen av dette igjen. Ved å benytte en slik prosess, blir det mulig å utvikle flere områder på nettsiden samtidig uten at det nødvendigvis krasjer mellom de forskjellige funksjonene.
+
+En iterativ metode gjør det mulig å splitte et større prosjekt i mindre, mer håndterlige biter. Utvikling av kode, planlegging og design blir gjennomført i gjenntatte sykluser \cite{method:iterative_fig}. Dermed kan man følge figur \ref{fig:iterative_development} for prosessen gjennom hele utviklingen.
+
+ \begin{figure}[htbp]
+	\centering
+		\includegraphics[scale=0.5]{Bilder/iterativ_utvikling.png}
+	\caption[Iterativ Utviklings Diagram]{Oversikt over trinnene per syklus i iterativ utvikling \cite{iterative:development}. } %\ref{fig:iterative}
+	\label{fig:iterative_development}
+\end{figure}
+
 
 
 \section{Litteratur Studie}

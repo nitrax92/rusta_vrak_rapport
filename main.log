@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.14)  30 NOV 2016 18:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.14)  1 DEC 2016 19:13
 entering extended mode
 **./main.tex
 (main.tex
@@ -953,7 +953,11 @@ Package: dirtree 2012/12/11 v0.32 package wrapper for dirtree
 File: dirtree.tex 2012/12/11 v0.32 `dirtree' (jcc)
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 95.
- (main.aux)
+ (main.aux
+
+LaTeX Warning: Label `fig:rv_customercontact' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
@@ -976,8 +980,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
@@ -1017,7 +1020,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-<logo.jpg, id=163, 206.4513pt x 28.4262pt>
+<logo.jpg, id=171, 206.4513pt x 28.4262pt>
 File: logo.jpg Graphic file (type jpg)
  <use logo.jpg>
 Package pdftex.def Info: logo.jpg used on input line 138.
@@ -1037,27 +1040,27 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./logo.jpg>]
 ------------------------------------------------------------------------------
+ 0 Sammendrag
+------------------------------------------------------------------------------
+[1]
+------------------------------------------------------------------------------
  Table of Contents
 ------------------------------------------------------------------------------
+(main.toc [2
 
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
-
+])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
-[1
-
-]
+ [3]
 ------------------------------------------------------------------------------
  List of Figures
 ------------------------------------------------------------------------------
-
-Package hyperref Warning: old lof file detected, not used; run LaTeX again.
-
+(main.lof)
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
-[2
+ [4
 
 
 ] (Chapters/Introduction.tex
@@ -1069,227 +1072,407 @@ Kapittel 1.
 
 
 
-]
-
-Package natbib Warning: Citation `method:iterative_fig' on page 2 undefined on 
-input line 39.
-
-
-LaTeX Warning: Reference `fig:iterative_development' on page 2 undefined on inp
-ut line 39.
-
-<Bilder/iterativ_utvikling.png, id=190, 874.26625pt x 377.41pt>
+] [2] [3] <Bilder/iterativ_utvikling.png, id=309, 874.26625pt x 377.41pt>
 File: Bilder/iterativ_utvikling.png Graphic file (type png)
 
 <use Bilder/iterativ_utvikling.png>
-Package pdftex.def Info: Bilder/iterativ_utvikling.png used on input line 43.
+Package pdftex.def Info: Bilder/iterativ_utvikling.png used on input line 82.
 (pdftex.def)             Requested size: 437.13205pt x 188.70453pt.
-
-
-Package natbib Warning: Citation `iterative:development' on page 2 undefined on
- input line 44.
-
-
-Package natbib Warning: Citation `iterative:development' on page 2 undefined on
- input line 44.
-
-[2] [3 <./Bilder/iterativ_utvikling.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 98.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 94.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 98.
- [4])
-(Chapters/Theory.tex
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 94.
+ [4 <./Bilder/iterativ_utvikling.png>]) (Chapters/Theory.tex
 Kapittel 2.
 ------------------------------------------------------------------------------
  2 Oversikt over valgte Teknologier
 ------------------------------------------------------------------------------
-
-Package natbib Warning: Citation `paas:azure' on page 5 undefined on input line
- 7.
-
-
-Package natbib Warning: Citation `bachelor' on page 5 undefined on input line 7
-.
-
-
-Package natbib Warning: Citation `bachelor' on page 5 undefined on input line 1
-1.
-
 [5
 
-]
-
-Package natbib Warning: Citation `bachelor' on page 6 undefined on input line 1
-7.
-
-[6]
-
-Package natbib Warning: Citation `bachelor' on page 7 undefined on input line 3
-8.
-
-<Bilder/django.png, id=247, 319.94531pt x 712.16063pt>
+] [6] <Bilder/django.png, id=343, 319.94531pt x 712.16063pt>
 File: Bilder/django.png Graphic file (type png)
- <use Bilder/django.png>
+
+<use Bilder/django.png>
 Package pdftex.def Info: Bilder/django.png used on input line 43.
 (pdftex.def)             Requested size: 128.0374pt x 285.00047pt.
-
-
-Package natbib Warning: Citation `django:what' on page 7 undefined on input lin
-e 46.
-
-
-LaTeX Warning: Reference `wrap-fig:1' on page 7 undefined on input line 52.
-
-[7 <./Bilder/django.png>] [8]) (Chapters/Solution.tex [9]
+ [7 <./Bilder/django.png>] [8]) (Chapters/Solution.tex
+[9]
 Kapittel 3.
 ------------------------------------------------------------------------------
  3 L\IeC {\o }sning
 ------------------------------------------------------------------------------
 
-LaTeX Warning: Reference `kravliste1' on page 10 undefined on input line 5.
-
-
-LaTeX Warning: Reference `kravliste2' on page 10 undefined on input line 5.
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 9.
 
 [10
 
-] [11] <Bilder/rv_frontpage.png, id=277, 1152.55594pt x 923.70094pt>
+] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+<Bilder/rv_frontpage.png, id=380, 1152.55594pt x 923.70094pt>
 File: Bilder/rv_frontpage.png Graphic file (type png)
 
 <use Bilder/rv_frontpage.png>
-Package pdftex.def Info: Bilder/rv_frontpage.png used on input line 47.
-(pdftex.def)             Requested size: 345.76945pt x 277.11243pt.
-
-<Bilder/rv_carlist.png, id=279, 960.58875pt x 615.80063pt>
+Package pdftex.def Info: Bilder/rv_frontpage.png used on input line 52.
+(pdftex.def)             Requested size: 461.0142pt x 369.47383pt.
+ [12 <./Bilder/rv_frontpage.png>]
+<Bilder/rv_carlist.png, id=388, 960.58875pt x 615.80063pt>
 File: Bilder/rv_carlist.png Graphic file (type png)
 
 <use Bilder/rv_carlist.png>
-Package pdftex.def Info: Bilder/rv_carlist.png used on input line 56.
-(pdftex.def)             Requested size: 288.17885pt x 184.74161pt.
+Package pdftex.def Info: Bilder/rv_carlist.png used on input line 63.
+(pdftex.def)             Requested size: 480.2932pt x 307.89955pt.
 
-<Bilder/rv_individualcar.png, id=280, 797.98125pt x 907.13907pt>
+Overfull \hbox (8.61763pt too wide) in paragraph at lines 63--64
+ [][] 
+ []
+
+<Bilder/rv_carlist_filter.png, id=390, 904.1278pt x 185.19188pt>
+File: Bilder/rv_carlist_filter.png Graphic file (type png)
+
+<use Bilder/rv_carlist_filter.png>
+Package pdftex.def Info: Bilder/rv_carlist_filter.png used on input line 72.
+(pdftex.def)             Requested size: 452.06279pt x 92.5957pt.
+ [13 <./Bilder/rv_carlist.png> <./Bilder/rv_carlist_filter.png>]
+<Bilder/rv_individualcar.png, id=398, 802.49812pt x 910.15031pt>
 File: Bilder/rv_individualcar.png Graphic file (type png)
 
 <use Bilder/rv_individualcar.png>
-Package pdftex.def Info: Bilder/rv_individualcar.png used on input line 64.
-(pdftex.def)             Requested size: 239.39621pt x 272.14381pt.
- [12 <./Bilder/rv_frontpage.png> <./Bilder/rv_carlist.png>] <Bilder/rv_dateavai
-lable.png, id=289, 258.9675pt x 223.58531pt>
-File: Bilder/rv_dateavailable.png Graphic file (type png)
-
-<use Bilder/rv_dateavailable.png>
-Package pdftex.def Info: Bilder/rv_dateavailable.png used on input line 72.
-(pdftex.def)             Requested size: 77.69084pt x 67.0761pt.
-
-<Bilder/rv_customercontact.png, id=290, 989.94844pt x 901.11656pt>
+Package pdftex.def Info: Bilder/rv_individualcar.png used on input line 84.
+(pdftex.def)             Requested size: 240.75128pt x 273.0472pt.
+ [14 <./Bilder/rv_individualcar.png>]
+<Bilder/rv_customercontact.png, id=410, 897.3525pt x 888.31876pt>
 File: Bilder/rv_customercontact.png Graphic file (type png)
 
 <use Bilder/rv_customercontact.png>
-Package pdftex.def Info: Bilder/rv_customercontact.png used on input line 82.
-(pdftex.def)             Requested size: 296.98682pt x 270.33705pt.
- [13 <./Bilder/rv_individualcar.png> <./Bilder/rv_dateavailable.png>] [14 <./Bi
-lder/rv_customercontact.png>]
+Package pdftex.def Info: Bilder/rv_customercontact.png used on input line 115.
+(pdftex.def)             Requested size: 448.67514pt x 444.1583pt.
+ [15 <./Bilder/rv_customercontact.png>]
+<Bilder/rv_receipt.png, id=417, 957.5775pt x 602.25pt>
+File: Bilder/rv_receipt.png Graphic file (type png)
 
-LaTeX Warning: Reference `fig:admin_front' on page 15 undefined on input line 9
-6.
+<use Bilder/rv_receipt.png>
+Package pdftex.def Info: Bilder/rv_receipt.png used on input line 127.
+(pdftex.def)             Requested size: 478.78758pt x 301.12425pt.
 
-<Bilder/admin_forside.png, id=305, 1318.9275pt x 839.38594pt>
+Overfull \hbox (7.11201pt too wide) in paragraph at lines 127--128
+ [][] 
+ []
+
+[16 <./Bilder/rv_receipt.png>]
+<Bilder/admin_forside.png, id=424, 1318.9275pt x 839.38594pt>
 File: Bilder/admin_forside.png Graphic file (type png)
 
 <use Bilder/admin_forside.png>
-Package pdftex.def Info: Bilder/admin_forside.png used on input line 100.
+Package pdftex.def Info: Bilder/admin_forside.png used on input line 140.
 (pdftex.def)             Requested size: 395.6813pt x 251.81772pt.
- [15
+ [17
 
  <./Bilder/admin_forside.png>]
-
-LaTeX Warning: Reference `fig:admin_list' on page 16 undefined on input line 10
-6.
-
-<Bilder/admin_liste2.png, id=312, 1840.62656pt x 840.89156pt>
+<Bilder/admin_liste2.png, id=431, 1840.62656pt x 840.89156pt>
 File: Bilder/admin_liste2.png Graphic file (type png)
 
 <use Bilder/admin_liste2.png>
-Package pdftex.def Info: Bilder/admin_liste2.png used on input line 111.
+Package pdftex.def Info: Bilder/admin_liste2.png used on input line 151.
 (pdftex.def)             Requested size: 455.24408pt x 207.97694pt.
 
-<Bilder/admin_ny_reservasjon.png, id=313, 532.99126pt x 436.63126pt>
+<Bilder/admin_ny_reservasjon.png, id=432, 532.99126pt x 436.63126pt>
 File: Bilder/admin_ny_reservasjon.png Graphic file (type png)
 
 <use Bilder/admin_ny_reservasjon.png>
-Package pdftex.def Info: Bilder/admin_ny_reservasjon.png used on input line 129
+Package pdftex.def Info: Bilder/admin_ny_reservasjon.png used on input line 169
 .
 (pdftex.def)             Requested size: 226.40022pt x 185.46922pt.
 
-Overfull \hbox (37.73288pt too wide) in paragraph at lines 129--130
+Overfull \hbox (37.73288pt too wide) in paragraph at lines 169--170
  [] 
  []
 
 
-LaTeX Warning: Reference `fig:admin_new_res' on page 16 undefined on input line
- 146.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16 <./Bilder/admin_liste2.png> <./Bilder/admin_ny_reservasjon.png>]
+[18 <./Bilder/admin_liste2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
 
-LaTeX Warning: Reference `table:percent' on page 17 undefined on input line 156
-.
+ []
 
+<Bilder/db01.png, id=441, 404.26031pt x 432.86719pt>
+File: Bilder/db01.png Graphic file (type png)
+ <use Bilder/db01.png>
+Package pdftex.def Info: Bilder/db01.png used on input line 203.
+(pdftex.def)             Requested size: 282.98029pt x 303.00496pt.
 
-LaTeX Warning: Reference `fig:price_reduction' on page 17 undefined on input li
-ne 156.
-
-<Bilder/avslag.png, id=325, 831.105pt x 402.303pt>
+[19 <./Bilder/admin_ny_reservasjon.png>]
+<Bilder/avslag.png, id=449, 831.105pt x 402.303pt>
 File: Bilder/avslag.png Graphic file (type png)
  <use Bilder/avslag.png>
-Package pdftex.def Info: Bilder/avslag.png used on input line 173.
+Package pdftex.def Info: Bilder/avslag.png used on input line 231.
 (pdftex.def)             Requested size: 415.55148pt x 201.151pt.
 
-[17 <./Bilder/avslag.png>] [18
+[20 <./Bilder/db01.png>] [21 <./Bilder/avslag.png>] [22
 
-]) (main.bbl [19
-
-]) [20
 
 ]
+Kapittel 4.
+------------------------------------------------------------------------------
+ 4 Diskusjon
+------------------------------------------------------------------------------
+[23
+
+]
+Kapittel 5.
+------------------------------------------------------------------------------
+ 5 Konklusjon
+------------------------------------------------------------------------------
+) (main.bbl [24
+
+]) [25
+
+]
+<./Appendices/Priskurver.pdf, id=494, 597.55246pt x 845.07718pt>
+File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
+
+<use ./Appendices/Priskurver.pdf>
+Package pdftex.def Info: ./Appendices/Priskurver.pdf used on input line 243.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
+ <use ./Appendices/Priskurver.pdf>
+Package pdftex.def Info: ./Appendices/Priskurver.pdf used on input line 243.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+<./Appendices/Priskurver.pdf, id=497, page=1, 597.55246pt x 845.07718pt>
+File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
+
+<use ./Appendices/Priskurver.pdf, page 1>
+Package pdftex.def Info: ./Appendices/Priskurver.pdf, page1 used on input line 
+243.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
+
+<use ./Appendices/Priskurver.pdf, page 1>
+Package pdftex.def Info: ./Appendices/Priskurver.pdf, page1 used on input line 
+243.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+ [26
+
+]
+File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
+
+<use ./Appendices/Priskurver.pdf, page 1>
+Package pdftex.def Info: ./Appendices/Priskurver.pdf, page1 used on input line 
+243.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
+
+<use ./Appendices/Priskurver.pdf, page 1>
+Package pdftex.def Info: ./Appendices/Priskurver.pdf, page1 used on input line 
+243.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
+
+<use ./Appendices/Priskurver.pdf, page 1>
+Package pdftex.def Info: ./Appendices/Priskurver.pdf, page1 used on input line 
+243.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+ [27 <./Appendices/Priskurver.pdf>]
+<./Appendices/Priskurver.pdf, id=520, page=2, 597.55246pt x 845.07718pt>
+File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
+
+<use ./Appendices/Priskurver.pdf, page 2>
+Package pdftex.def Info: ./Appendices/Priskurver.pdf, page2 used on input line 
+243.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
+
+<use ./Appendices/Priskurver.pdf, page 2>
+Package pdftex.def Info: ./Appendices/Priskurver.pdf, page2 used on input line 
+243.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
+
+<use ./Appendices/Priskurver.pdf, page 2>
+Package pdftex.def Info: ./Appendices/Priskurver.pdf, page2 used on input line 
+243.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+ [28 <./Appendices/Priskurver.pdf>]
+<./Appendices/Priskurver.pdf, id=526, page=3, 597.55246pt x 845.07718pt>
+File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
+
+<use ./Appendices/Priskurver.pdf, page 3>
+Package pdftex.def Info: ./Appendices/Priskurver.pdf, page3 used on input line 
+243.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
+
+<use ./Appendices/Priskurver.pdf, page 3>
+Package pdftex.def Info: ./Appendices/Priskurver.pdf, page3 used on input line 
+243.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
+
+<use ./Appendices/Priskurver.pdf, page 3>
+Package pdftex.def Info: ./Appendices/Priskurver.pdf, page3 used on input line 
+243.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+ [29 <./Appendices/Priskurver.pdf>]
+<./Appendices/Priskurver.pdf, id=532, page=4, 597.55246pt x 845.07718pt>
+File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
+
+<use ./Appendices/Priskurver.pdf, page 4>
+Package pdftex.def Info: ./Appendices/Priskurver.pdf, page4 used on input line 
+243.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
+
+<use ./Appendices/Priskurver.pdf, page 4>
+Package pdftex.def Info: ./Appendices/Priskurver.pdf, page4 used on input line 
+243.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
+
+<use ./Appendices/Priskurver.pdf, page 4>
+Package pdftex.def Info: ./Appendices/Priskurver.pdf, page4 used on input line 
+243.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+ [30 <./Appendices/Priskurver.pdf>]
+<./Appendices/rv_bekreftelse.pdf, id=538, 597.50786pt x 845.04686pt>
+File: ./Appendices/rv_bekreftelse.pdf Graphic file (type pdf)
+
+<use ./Appendices/rv_bekreftelse.pdf>
+Package pdftex.def Info: ./Appendices/rv_bekreftelse.pdf used on input line 246
+.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: ./Appendices/rv_bekreftelse.pdf Graphic file (type pdf)
+ <use ./Appendices/rv_bekreftelse.pdf>
+Package pdftex.def Info: ./Appendices/rv_bekreftelse.pdf used on input line 246
+.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+
+<./Appendices/rv_bekreftelse.pdf, id=541, page=1, 597.50786pt x 845.04686pt>
+File: ./Appendices/rv_bekreftelse.pdf Graphic file (type pdf)
+
+<use ./Appendices/rv_bekreftelse.pdf, page 1>
+Package pdftex.def Info: ./Appendices/rv_bekreftelse.pdf, page1 used on input l
+ine 246.
+(pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
+File: ./Appendices/rv_bekreftelse.pdf Graphic file (type pdf)
+
+<use ./Appendices/rv_bekreftelse.pdf, page 1>
+Package pdftex.def Info: ./Appendices/rv_bekreftelse.pdf, page1 used on input l
+ine 246.
+(pdftex.def)             Requested size: 478.00693pt x 676.0384pt.
+File: ./Appendices/rv_bekreftelse.pdf Graphic file (type pdf)
+
+<use ./Appendices/rv_bekreftelse.pdf, page 1>
+Package pdftex.def Info: ./Appendices/rv_bekreftelse.pdf, page1 used on input l
+ine 246.
+(pdftex.def)             Requested size: 478.00693pt x 676.0384pt.
+File: ./Appendices/rv_bekreftelse.pdf Graphic file (type pdf)
+
+<use ./Appendices/rv_bekreftelse.pdf, page 1>
+Package pdftex.def Info: ./Appendices/rv_bekreftelse.pdf, page1 used on input l
+ine 246.
+(pdftex.def)             Requested size: 478.00693pt x 676.0384pt.
+File: ./Appendices/rv_bekreftelse.pdf Graphic file (type pdf)
+
+<use ./Appendices/rv_bekreftelse.pdf, page 1>
+Package pdftex.def Info: ./Appendices/rv_bekreftelse.pdf, page1 used on input l
+ine 246.
+(pdftex.def)             Requested size: 478.00693pt x 676.0384pt.
+ [31 <./Appendices/rv_bekreftelse.pdf>] <./Appendices/database.pdf, id=548, 597
+.55246pt x 845.07718pt>
+File: ./Appendices/database.pdf Graphic file (type pdf)
+
+<use ./Appendices/database.pdf>
+Package pdftex.def Info: ./Appendices/database.pdf used on input line 249.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: ./Appendices/database.pdf Graphic file (type pdf)
+ <use ./Appendices/database.pdf>
+Package pdftex.def Info: ./Appendices/database.pdf used on input line 249.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+<./Appendices/database.pdf, id=551, page=1, 597.55246pt x 845.07718pt>
+File: ./Appendices/database.pdf Graphic file (type pdf)
+
+<use ./Appendices/database.pdf, page 1>
+Package pdftex.def Info: ./Appendices/database.pdf, page1 used on input line 24
+9.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: ./Appendices/database.pdf Graphic file (type pdf)
+
+<use ./Appendices/database.pdf, page 1>
+Package pdftex.def Info: ./Appendices/database.pdf, page1 used on input line 24
+9.
+(pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
+File: ./Appendices/database.pdf Graphic file (type pdf)
+
+<use ./Appendices/database.pdf, page 1>
+Package pdftex.def Info: ./Appendices/database.pdf, page1 used on input line 24
+9.
+(pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
+File: ./Appendices/database.pdf Graphic file (type pdf)
+
+<use ./Appendices/database.pdf, page 1>
+Package pdftex.def Info: ./Appendices/database.pdf, page1 used on input line 24
+9.
+(pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
+File: ./Appendices/database.pdf Graphic file (type pdf)
+
+<use ./Appendices/database.pdf, page 1>
+Package pdftex.def Info: ./Appendices/database.pdf, page1 used on input line 24
+9.
+(pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
+ [32 <./Appendices/database.pdf>]
+<./Appendices/database.pdf, id=574, page=2, 597.55246pt x 845.07718pt>
+File: ./Appendices/database.pdf Graphic file (type pdf)
+
+<use ./Appendices/database.pdf, page 2>
+Package pdftex.def Info: ./Appendices/database.pdf, page2 used on input line 24
+9.
+(pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
+File: ./Appendices/database.pdf Graphic file (type pdf)
+
+<use ./Appendices/database.pdf, page 2>
+Package pdftex.def Info: ./Appendices/database.pdf, page2 used on input line 24
+9.
+(pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
+File: ./Appendices/database.pdf Graphic file (type pdf)
+
+<use ./Appendices/database.pdf, page 2>
+Package pdftex.def Info: ./Appendices/database.pdf, page2 used on input line 24
+9.
+(pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
+ [33 <./Appendices/database.pdf>]
 ------------------------------------------------------------------------------
  Bibliografi
 ------------------------------------------------------------------------------
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 233.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 233.
-(main.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 233.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 233.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 257.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 257.
+(main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 257.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 257.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CA1D8AD996DA5C15016D794B41E4D7F5;6143.
+(rerunfilecheck)             Checksum: C072C514688FF7FD821AE45440787F20;6319.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 233.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 257.
  ) 
 Here is how much of TeX's memory you used:
- 16207 strings out of 493335
- 228616 string characters out of 3139259
- 424444 words of memory out of 3000000
- 19319 multiletter control sequences out of 15000+200000
- 14979 words of font info for 56 fonts, out of 3000000 for 9000
+ 16291 strings out of 493335
+ 230350 string characters out of 3139259
+ 427421 words of memory out of 3000000
+ 19362 multiletter control sequences out of 15000+200000
+ 14671 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,11n,58p,701b,594s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 49i,19n,58p,701b,586s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
@@ -1302,9 +1485,9 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (23 pages, 2427293 bytes).
+Output written on main.pdf (38 pages, 3361115 bytes).
 PDF statistics:
- 432 PDF objects out of 1000 (max. 8388607)
- 123 named destinations out of 1000 (max. 500000)
- 381 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 659 PDF objects out of 1000 (max. 8388607)
+ 151 named destinations out of 1000 (max. 500000)
+ 487 words of extra memory for PDF output out of 10000 (max. 10000000)
 
