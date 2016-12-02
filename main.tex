@@ -167,15 +167,18 @@
 
 \end{titlepage}
 
-%\includepdf[pages=-,landscape=false,offset=75 -75, pagecommand={\thispagestyle{fancy}}]{./Appendices/obligegen.pdf}
+\includepdf[pages=-,landscape=false,offset=75 -75, pagecommand={\thispagestyle{fancy}}]{./Appendices/obligegen.pdf}
 
 
 \begin{adjustwidth*}{2cm}{2cm}
 \let\clearpage\relax
 \chapter{Sammendrag}
-Dette prosjektet har gått ut på å utvikle en nettside for bedriften Rusta Vrak Bilutleige. Denne nettsiden skal fungere som et bestillingsverktøy for kunder som ønsker å leie bil, og for at bedriften skal ha et verktøy for å holde styr på alle utleier til enhver tid. I dag har Rusta Vrak Bilutleige en enkel informasjonsnettside uten noen form for funksjonalitet, og har derfor et ønske om å kunne tilby sine kunder et alternativt digitalt bestillingsverktøy.
+Dette prosjektet har gått ut på å utvikle en nettside for bedriften Rusta Vrak Bilutleige. Denne nettsiden skal fungere som et bestillingsverktøy for kunder som ønsker å leie bil, og for at bedriften skal ha et verktøy for å kunne ha overiskt over alle utleier til enhver tid. I dag har Rusta Vrak Bilutleige en enkel informasjonsnettside uten noen form for funksjonalitet, og har derfor et ønske om å kunne tilby sine kunder et alternativt digitalt bestillingsverktøy.
  
-I tillegg til selve utviklingen skulle prosjektet også publiseres på nett. Til dette formålet har det blitt benyttet en metode for publisering i en skytjeneste. Her ble leverandøren Google  benyttet, og på deres platform som kalles Google App Engine. Ved å benytte en slik publiseringsmetode ble det mer tid til arbeid med selve nettsiden.
+ 
+I tillegg til selve utviklingen, skulle også prosjektet publiseres og gjøres tilgjengelig på internett. Til dette formålet har det blitt benyttet en metode for publisering i skytjenesten til Google, på plattformen Google App Engine. Ved å benytte en slik publiseringsmetode kunne det settes av mer tid til selve utviklingen av nettsiden.
+
+%I tillegg til selve utviklingen skulle prosjektet også publiseres på nett. Til dette formålet har det blitt benyttet en metode for publisering i en skytjeneste. Her ble leverandøren Google  benyttet, og på deres platform som kalles Google App Engine. Ved å benytte en slik publiseringsmetode ble det mer tid til arbeid med selve nettsiden.
 
 
 \end{adjustwidth*}
@@ -240,14 +243,20 @@ I tillegg til selve utviklingen skulle prosjektet også publiseres på nett. Til
 % Uncomment the lines as you write the Appendices
 \chapter*{Vedlegg} % Main appendix title
 
-\lhead{Vedlegg A - Prisforslag}
-\includepdf[pages=-,landscape=false,offset=75 -75,scale=0.9, pagecommand={\thispagestyle{fancy}}]{./Appendices/Priskurver.pdf}
 
-\lhead{Vedlegg B - Ordre Bekreftelse PDF}
+
+\lhead{Vedlegg A - Ordre Bekreftelse PDF}
 \includepdf[pages=-,landscape=false,offset=75 -75, scale=0.8, pagecommand={\thispagestyle{fancy}}]{./Appendices/rv_bekreftelse.pdf}
 
-\lhead{Vedlegg C - Database}
+\lhead{Vedlegg B - Database}
 \includepdf[pages=-,landscape=false,offset=75 -75, pagecommand={\thispagestyle{fancy}}]{./Appendices/database.pdf}
+
+\lhead{Vedlegg C - Prisforslag}
+\includepdf[pages=-,landscape=false,offset=75 -75,scale=0.9, pagecommand={\thispagestyle{fancy}}]{./Appendices/Priskurver.pdf}
+
+\lhead{Vedlegg D - Kodesnutter}
+\includepdf[pages=-,landscape=false,offset=75 -75, pagecommand={\thispagestyle{fancy}}]{./Appendices/price_calc2.pdf}
+
 
 \addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
 

@@ -1,14 +1,9 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{9}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
-
-\bibitem[Engen(2016)]{bachelor}
-Martin Engen.
-\newblock Bachelor rapport vår 2016.
-\newblock Technical report, Universitetet I Agder, 2016.
 
 \bibitem[met()]{method:iterative_fig}
 URL
@@ -24,18 +19,33 @@ URL \url{https://www.inflectra.com/Methodologies/Waterfall.aspx}.
 \newblock URL \url{https://azure.microsoft.com/nb-no/overview/what-is-paas/}.
 \newblock [Online; besøkt 23-November-2016].
 
+\bibitem[Engen(2016)]{bachelor}
+Martin Engen.
+\newblock Bachelor rapport vår 2016.
+\newblock Technical report, Universitetet I Agder, 2016.
+
 \bibitem[dja({\natexlab{a}})]{django:what}
 "full stack python, django", {\natexlab{a}}.
 \newblock URL \url{https://www.fullstackpython.com/django.html}.
 \newblock [Online; besøkt 23-November-2016].
+
+\bibitem[jqu()]{jquery:what}
+jquery introduction.
+\newblock URL \url{http://www.w3schools.com/jquery/jquery_intro.asp}.
+\newblock [Online; besøkt 02-Desember-2016].
+
+\bibitem[dja({\natexlab{b}})]{django:debug}
+Debug, {\natexlab{b}}.
+\newblock URL \url{https://docs.djangoproject.com/en/1.10/ref/settings/#debug}.
+\newblock [Online; besøkt 02-Desember-2016].
 
 \bibitem[tes()]{tests:django}
 "system check framework".
 \newblock URL \url{https://docs.djangoproject.com/en/1.10/ref/checks/}.
 \newblock [Online; besøkt 22-November-2016].
 
-\bibitem[dja({\natexlab{b}})]{django:tags}
-"the django template language", {\natexlab{b}}.
+\bibitem[dja({\natexlab{c}})]{django:tags}
+"the django template language", {\natexlab{c}}.
 \newblock URL
   \url{https://docs.djangoproject.com/en/1.9/topics/templates/#the-django-template-language}.
 \newblock [Online; besøkt 22-November-2016].

@@ -1,20 +1,21 @@
+\lhead{Oversikt over valgte Teknologier}
 \chapter{Oversikt over valgte Teknologier}
 
 \section{Publisering}
 Ett av kravene til prosjektet var at nettsiden skal være så selvstendig som mulig. Det skal være minimalt med nedetid, serveren må kunne oppdateres uten manuelt inngrep og backup av database må foregå automatisk. Samtidig som å oppfylle dette burde selve hostingen være så billig som mulig. Derfor ble det noe moderne konseptet av Platform as a Service benyttet.
 
 \subsection{Platform as a Service}
-En Platform as a Service (PaaS) er et utviklings og distribusjons miljø basert i en skytjeneste \cite{ paas:azure}. En PaaS leverandør har som ansvar å levere og opprettholde en utviklings og distribusjons plattform for sine kunder. De har videre ansvaret på områdene rundt konfigurering, oppsett av servere og sikkerhet på server siden. Det er populært å referere til  PaaS leverandører som IT-avdelingen til produktet, som gjør at utvikleren kan fokusere mer på selve utviklingen enn oppsett av infrastrukturen som ligger under \cite[s. 10]{bachelor}
+En Platform as a Service (PaaS) er et utviklings og distribusjons miljø basert i en skytjeneste \cite{ paas:azure}. En PaaS leverandør har som ansvar å levere og opprettholde en utviklings og distribusjons plattform for sine kunder. De har videre ansvaret på områdene rundt konfigurering, oppsett av servere og sikkerhet på server siden. Det er populært å referere til  PaaS leverandører som IT-avdelingen til produktet, som gjør at utvikleren kan fokusere mer på selve utviklingen enn oppsett av infrastrukturen som ligger bak \cite[s. 10]{bachelor}
 
 \subsection{Fordeler ved PaaS}
 \subsubsection*{Spare Tid}
-Utviklingen foregår direkte mot arkitekturen til den valgte skytjenesten, derfor vil man unngå forarbeidet rundt oppsett og installasjon av servere. Dersom en server hos PaaS leverandøren skulle gå offline, vil dette bli ordnet fortløpende av leverandøren, uten at man som kunde må gripe inn \cite[s. 9]{bachelor}.
+Utviklingen foregår direkte mot arkitekturen til den valgte skytjenesten, derfor vil man unngå forarbeidet rundt oppsett og installasjon av servere. Dersom en server hos PaaS leverandøren skulle gå offline, vil dette bli ordnet fortløpende av leverandøren, uten at man som kunde trenger å gripe inn \cite[s. 9]{bachelor}.
 
 \subsubsection*{Billig}
 Samtidig som å levere mye i pakken, kan publisering vha. PaaS være billig. Dette kommer av at de aller fleste leverandørene bruker dynamisk ressursallokering. Det betyr at ressursene allokert til et prosjekt vil følge samme kurve som behovet. Ved lite eller ingen trafikk vil et prosjekt gå i dvalemodus og bli der helt til en forespørsel blir sendt til serveren. Man betaler kun for de ressurser som blir benyttet.
 
 \subsection{Valg av PaaS Leverandør}
-PaaS er fortsatt et moderne konsept, og man har mange muligheter ved valg av leverandør. Det er en enorm jobb å foreta en sammenlikning over de relevante mulighetene, derfor har jeg valgt å gå ut ifra et studie som jeg foretok under et bachelor prosjekt våren 2016 \cite[s. 18]{bachelor}. Her ble det utført en sammenlikning av 3 av de største PaaS leverandørene: Google Cloud Platform, Microsoft Azure og Amazon Web Services. 
+PaaS er fortsatt et moderne konsept, og man har mange muligheter ved valg av leverandør. Det er en enorm jobb å foreta en sammenlikning over de relevante valgene man har, derfor har jeg valgt å gå ut ifra et studie som jeg foretok under et bachelor prosjekt våren 2016 \cite[s. 18]{bachelor}. Her ble det utført en sammenlikning av 3 av de største PaaS leverandørene: Google Cloud Platform, Microsoft Azure og Amazon Web Services. 
 
 
 \subsection*{Resultat}
@@ -70,6 +71,14 @@ Boostrap kommer utstyrt med et Grid system. Dette systemet er basert på å dele
 
 \subsubsection*{Komponenter}
 Rammeverket kommer med en hel rekke komponenter som kan benyttes.  Dette gjelder bl.a. en rekke valg innen navigasjonsmenyer, input bokser, knapper etc. Disse komponentene er videre fult mulig å redigere vha. CSS.
+
+
+\subsection{JavaScript Biblioteker}
+\paragraph*{JQuery.}
+JQuery har blitt brukt som hovedbibliotek bak all JavaScript mot nettsiden. Det er et såkalt «write less, do more» bibliotek som kommer utstyrt mange gode widgets (deriblant Kalender). Dette biblioteket tar mange vanlige oppgavers om vanligvis krever mange linjer JavaScript, og pakker disse inn i metoder man kan benytte i en enkelt linje kode i prosjektet \cite{ jquery:what}. 
+\paragraph*{Fullcalendar.}
+Fullcalendar har blitt benyttet for å kunne fremstille når bilene er ledig for utleie. Dette er et åpent kildekode bibliotek som kan brukes for å fremstille ‘events’ visuelt i form av en kalender.
+
 
 \newpage
 \section{Verktøy}
