@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.14)  1 DEC 2016 19:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.14)  1 DEC 2016 19:17
 entering extended mode
 **./main.tex
 (main.tex
@@ -1188,34 +1188,25 @@ File: Bilder/admin_ny_reservasjon.png Graphic file (type png)
 <use Bilder/admin_ny_reservasjon.png>
 Package pdftex.def Info: Bilder/admin_ny_reservasjon.png used on input line 169
 .
-(pdftex.def)             Requested size: 226.40022pt x 185.46922pt.
-
-Overfull \hbox (37.73288pt too wide) in paragraph at lines 169--170
- [] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[18 <./Bilder/admin_liste2.png>]
+(pdftex.def)             Requested size: 235.83778pt x 193.19766pt.
+ [18 <./Bilder/admin_liste2.png> <./Bilder/admin_ny_reservasjon.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 195--196
 
  []
 
-<Bilder/db01.png, id=441, 404.26031pt x 432.86719pt>
+<Bilder/db01.png, id=442, 404.26031pt x 432.86719pt>
 File: Bilder/db01.png Graphic file (type png)
  <use Bilder/db01.png>
 Package pdftex.def Info: Bilder/db01.png used on input line 203.
 (pdftex.def)             Requested size: 282.98029pt x 303.00496pt.
 
-[19 <./Bilder/admin_ny_reservasjon.png>]
-<Bilder/avslag.png, id=449, 831.105pt x 402.303pt>
+[19 <./Bilder/db01.png>] <Bilder/avslag.png, id=450, 831.105pt x 402.303pt>
 File: Bilder/avslag.png Graphic file (type png)
- <use Bilder/avslag.png>
+
+<use Bilder/avslag.png>
 Package pdftex.def Info: Bilder/avslag.png used on input line 231.
 (pdftex.def)             Requested size: 415.55148pt x 201.151pt.
-
-[20 <./Bilder/db01.png>] [21 <./Bilder/avslag.png>] [22
+ [20 <./Bilder/avslag.png>] [21
 
 
 ]
@@ -1223,19 +1214,19 @@ Kapittel 4.
 ------------------------------------------------------------------------------
  4 Diskusjon
 ------------------------------------------------------------------------------
-[23
+[22
 
 ]
 Kapittel 5.
 ------------------------------------------------------------------------------
  5 Konklusjon
 ------------------------------------------------------------------------------
-) (main.bbl [24
+) (main.bbl [23
 
-]) [25
+]) [24
 
 ]
-<./Appendices/Priskurver.pdf, id=494, 597.55246pt x 845.07718pt>
+<./Appendices/Priskurver.pdf, id=490, 597.55246pt x 845.07718pt>
 File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
 
 <use ./Appendices/Priskurver.pdf>
@@ -1246,7 +1237,7 @@ File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Priskurver.pdf used on input line 243.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
-<./Appendices/Priskurver.pdf, id=497, page=1, 597.55246pt x 845.07718pt>
+<./Appendices/Priskurver.pdf, id=493, page=1, 597.55246pt x 845.07718pt>
 File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
 
 <use ./Appendices/Priskurver.pdf, page 1>
@@ -1259,7 +1250,7 @@ File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Priskurver.pdf, page1 used on input line 
 243.
 (pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
- [26
+ [25
 
 ]
 File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
@@ -1280,68 +1271,68 @@ File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/Priskurver.pdf, page1 used on input line 
 243.
 (pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+ [26 <./Appendices/Priskurver.pdf>]
+<./Appendices/Priskurver.pdf, id=516, page=2, 597.55246pt x 845.07718pt>
+File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
+
+<use ./Appendices/Priskurver.pdf, page 2>
+Package pdftex.def Info: ./Appendices/Priskurver.pdf, page2 used on input line 
+243.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
+
+<use ./Appendices/Priskurver.pdf, page 2>
+Package pdftex.def Info: ./Appendices/Priskurver.pdf, page2 used on input line 
+243.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
+File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
+
+<use ./Appendices/Priskurver.pdf, page 2>
+Package pdftex.def Info: ./Appendices/Priskurver.pdf, page2 used on input line 
+243.
+(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
  [27 <./Appendices/Priskurver.pdf>]
-<./Appendices/Priskurver.pdf, id=520, page=2, 597.55246pt x 845.07718pt>
+<./Appendices/Priskurver.pdf, id=522, page=3, 597.55246pt x 845.07718pt>
 File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
 
-<use ./Appendices/Priskurver.pdf, page 2>
-Package pdftex.def Info: ./Appendices/Priskurver.pdf, page2 used on input line 
+<use ./Appendices/Priskurver.pdf, page 3>
+Package pdftex.def Info: ./Appendices/Priskurver.pdf, page3 used on input line 
 243.
 (pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
 File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
 
-<use ./Appendices/Priskurver.pdf, page 2>
-Package pdftex.def Info: ./Appendices/Priskurver.pdf, page2 used on input line 
+<use ./Appendices/Priskurver.pdf, page 3>
+Package pdftex.def Info: ./Appendices/Priskurver.pdf, page3 used on input line 
 243.
 (pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
 File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
 
-<use ./Appendices/Priskurver.pdf, page 2>
-Package pdftex.def Info: ./Appendices/Priskurver.pdf, page2 used on input line 
+<use ./Appendices/Priskurver.pdf, page 3>
+Package pdftex.def Info: ./Appendices/Priskurver.pdf, page3 used on input line 
 243.
 (pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
  [28 <./Appendices/Priskurver.pdf>]
-<./Appendices/Priskurver.pdf, id=526, page=3, 597.55246pt x 845.07718pt>
+<./Appendices/Priskurver.pdf, id=528, page=4, 597.55246pt x 845.07718pt>
 File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
 
-<use ./Appendices/Priskurver.pdf, page 3>
-Package pdftex.def Info: ./Appendices/Priskurver.pdf, page3 used on input line 
+<use ./Appendices/Priskurver.pdf, page 4>
+Package pdftex.def Info: ./Appendices/Priskurver.pdf, page4 used on input line 
 243.
 (pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
 File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
 
-<use ./Appendices/Priskurver.pdf, page 3>
-Package pdftex.def Info: ./Appendices/Priskurver.pdf, page3 used on input line 
+<use ./Appendices/Priskurver.pdf, page 4>
+Package pdftex.def Info: ./Appendices/Priskurver.pdf, page4 used on input line 
 243.
 (pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
 File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
 
-<use ./Appendices/Priskurver.pdf, page 3>
-Package pdftex.def Info: ./Appendices/Priskurver.pdf, page3 used on input line 
+<use ./Appendices/Priskurver.pdf, page 4>
+Package pdftex.def Info: ./Appendices/Priskurver.pdf, page4 used on input line 
 243.
 (pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
  [29 <./Appendices/Priskurver.pdf>]
-<./Appendices/Priskurver.pdf, id=532, page=4, 597.55246pt x 845.07718pt>
-File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
-
-<use ./Appendices/Priskurver.pdf, page 4>
-Package pdftex.def Info: ./Appendices/Priskurver.pdf, page4 used on input line 
-243.
-(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
-File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
-
-<use ./Appendices/Priskurver.pdf, page 4>
-Package pdftex.def Info: ./Appendices/Priskurver.pdf, page4 used on input line 
-243.
-(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
-File: ./Appendices/Priskurver.pdf Graphic file (type pdf)
-
-<use ./Appendices/Priskurver.pdf, page 4>
-Package pdftex.def Info: ./Appendices/Priskurver.pdf, page4 used on input line 
-243.
-(pdftex.def)             Requested size: 537.79224pt x 760.56244pt.
- [30 <./Appendices/Priskurver.pdf>]
-<./Appendices/rv_bekreftelse.pdf, id=538, 597.50786pt x 845.04686pt>
+<./Appendices/rv_bekreftelse.pdf, id=534, 597.50786pt x 845.04686pt>
 File: ./Appendices/rv_bekreftelse.pdf Graphic file (type pdf)
 
 <use ./Appendices/rv_bekreftelse.pdf>
@@ -1354,7 +1345,7 @@ Package pdftex.def Info: ./Appendices/rv_bekreftelse.pdf used on input line 246
 .
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 
-<./Appendices/rv_bekreftelse.pdf, id=541, page=1, 597.50786pt x 845.04686pt>
+<./Appendices/rv_bekreftelse.pdf, id=537, page=1, 597.50786pt x 845.04686pt>
 File: ./Appendices/rv_bekreftelse.pdf Graphic file (type pdf)
 
 <use ./Appendices/rv_bekreftelse.pdf, page 1>
@@ -1385,7 +1376,7 @@ File: ./Appendices/rv_bekreftelse.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/rv_bekreftelse.pdf, page1 used on input l
 ine 246.
 (pdftex.def)             Requested size: 478.00693pt x 676.0384pt.
- [31 <./Appendices/rv_bekreftelse.pdf>] <./Appendices/database.pdf, id=548, 597
+ [30 <./Appendices/rv_bekreftelse.pdf>] <./Appendices/database.pdf, id=544, 597
 .55246pt x 845.07718pt>
 File: ./Appendices/database.pdf Graphic file (type pdf)
 
@@ -1397,7 +1388,7 @@ File: ./Appendices/database.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/database.pdf used on input line 249.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
-<./Appendices/database.pdf, id=551, page=1, 597.55246pt x 845.07718pt>
+<./Appendices/database.pdf, id=547, page=1, 597.55246pt x 845.07718pt>
 File: ./Appendices/database.pdf Graphic file (type pdf)
 
 <use ./Appendices/database.pdf, page 1>
@@ -1428,27 +1419,27 @@ File: ./Appendices/database.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./Appendices/database.pdf, page1 used on input line 24
 9.
 (pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
+ [31 <./Appendices/database.pdf>]
+<./Appendices/database.pdf, id=569, page=2, 597.55246pt x 845.07718pt>
+File: ./Appendices/database.pdf Graphic file (type pdf)
+
+<use ./Appendices/database.pdf, page 2>
+Package pdftex.def Info: ./Appendices/database.pdf, page2 used on input line 24
+9.
+(pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
+File: ./Appendices/database.pdf Graphic file (type pdf)
+
+<use ./Appendices/database.pdf, page 2>
+Package pdftex.def Info: ./Appendices/database.pdf, page2 used on input line 24
+9.
+(pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
+File: ./Appendices/database.pdf Graphic file (type pdf)
+
+<use ./Appendices/database.pdf, page 2>
+Package pdftex.def Info: ./Appendices/database.pdf, page2 used on input line 24
+9.
+(pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
  [32 <./Appendices/database.pdf>]
-<./Appendices/database.pdf, id=574, page=2, 597.55246pt x 845.07718pt>
-File: ./Appendices/database.pdf Graphic file (type pdf)
-
-<use ./Appendices/database.pdf, page 2>
-Package pdftex.def Info: ./Appendices/database.pdf, page2 used on input line 24
-9.
-(pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
-File: ./Appendices/database.pdf Graphic file (type pdf)
-
-<use ./Appendices/database.pdf, page 2>
-Package pdftex.def Info: ./Appendices/database.pdf, page2 used on input line 24
-9.
-(pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
-File: ./Appendices/database.pdf Graphic file (type pdf)
-
-<use ./Appendices/database.pdf, page 2>
-Package pdftex.def Info: ./Appendices/database.pdf, page2 used on input line 24
-9.
-(pdftex.def)             Requested size: 598.18013pt x 845.96486pt.
- [33 <./Appendices/database.pdf>]
 ------------------------------------------------------------------------------
  Bibliografi
 ------------------------------------------------------------------------------
@@ -1466,8 +1457,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 257.
  ) 
 Here is how much of TeX's memory you used:
- 16291 strings out of 493335
- 230350 string characters out of 3139259
+ 16290 strings out of 493335
+ 230343 string characters out of 3139259
  427421 words of memory out of 3000000
  19362 multiletter control sequences out of 15000+200000
  14671 words of font info for 55 fonts, out of 3000000 for 9000
@@ -1485,9 +1476,9 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (38 pages, 3361115 bytes).
+Output written on main.pdf (37 pages, 3355275 bytes).
 PDF statistics:
- 659 PDF objects out of 1000 (max. 8388607)
- 151 named destinations out of 1000 (max. 500000)
+ 654 PDF objects out of 1000 (max. 8388607)
+ 150 named destinations out of 1000 (max. 500000)
  487 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -36,8 +36,8 @@
 \contentsline {subsection}{\numberline {3.4.1}Reservasjoner i Administrasjonsside}{18}{subsection.87}
 \contentsline {section}{\numberline {3.5}Database}{19}{section.91}
 \contentsline {section}{\numberline {3.6}Priser og Rabatt}{19}{section.93}
-\contentsline {section}{\numberline {3.7}Testing og Validering}{22}{section.98}
-\contentsline {subsection}{\numberline {3.7.1}Django Debugging}{22}{subsection.99}
-\contentsline {subsection}{\numberline {3.7.2}Django System Check}{22}{subsection.100}
-\contentsline {chapter}{\numberline {4}Diskusjon}{23}{chapter.102}
-\contentsline {chapter}{\numberline {5}Konklusjon}{24}{chapter.103}
+\contentsline {section}{\numberline {3.7}Testing og Validering}{21}{section.98}
+\contentsline {subsection}{\numberline {3.7.1}Django Debugging}{21}{subsection.99}
+\contentsline {subsection}{\numberline {3.7.2}Django System Check}{21}{subsection.100}
+\contentsline {chapter}{\numberline {4}Diskusjon}{22}{chapter.102}
+\contentsline {chapter}{\numberline {5}Konklusjon}{23}{chapter.103}
