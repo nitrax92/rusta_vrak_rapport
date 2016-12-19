@@ -5,7 +5,7 @@
 Ett av kravene til prosjektet var at nettsiden skal være så selvstendig som mulig. Det skal være minimalt med nedetid, serveren må kunne oppdateres uten manuelt inngrep og backup av database må foregå automatisk. Samtidig som å oppfylle dette burde selve hostingen være så billig som mulig. Derfor ble det noe moderne konseptet av Platform as a Service benyttet.
 
 \subsection{Platform as a Service}
-En Platform as a Service (PaaS) er et utviklings og distribusjons miljø basert i en skytjeneste \cite{ paas:azure}. En PaaS leverandør har som ansvar å levere og opprettholde en utviklings og distribusjons plattform for sine kunder. De har videre ansvaret på områdene rundt konfigurering, oppsett av servere og sikkerhet på server siden. Det er populært å referere til  PaaS leverandører som IT-avdelingen til produktet, som gjør at utvikleren kan fokusere mer på selve utviklingen enn oppsett av infrastrukturen som ligger bak \cite[s. 10]{bachelor}
+En Platform as a Service (PaaS) er et utviklings og distribusjons miljø basert i en skytjeneste \cite{ paas:azure}. En PaaS leverandør har som ansvar å levere og opprettholde en utviklings og distribusjons plattform for sine kunder. De har videre ansvaret på områdene rundt konfigurering, oppsett av servere og sikkerhet på server siden. Det er populært å referere til  PaaS leverandører som IT-avdelingen til produktet, som gjør at utvikleren kan fokusere mer på selve utviklingen enn oppsett av infrastrukturen som ligger bak \cite[s. 10]{bachelor}.
 
 \subsection{Fordeler ved PaaS}
 \subsubsection*{Spare Tid}
@@ -22,9 +22,9 @@ PaaS er fortsatt et moderne konsept, og man har mange muligheter ved valg av lev
 Alle de tre nevnte leverandørene har et bredt utvalgt av muligheter på sine løsninger. Alle tilbyr et løfte av server tilgjengelighet på 99,95\% av tiden. De har gode tilkoblingsmuligheter i Europa og prisen er basert på tid og ressurser.
 
 Men det er spesielt ett område de har unike løfter; Gratis Kvoter. \\
-Microsoft Azure leverer kun gratis kvoter i form av trial account. Her får man ressurser for 200\$ som man kan benytte som man selv bestemmer, i løpet av de første 30 dager etter Trial Account blir opprettet.\\
-Amazon  Web Services kommer utstyrt med 1 år ‘free tier’, som inneholder 5GB lagringsplass, 20 000 GET requests og 2 000 Put Requests.\\
-Google Cloud Platform derimot tilbyr daglige gratis kvoter. Dette inkluderer bl.a. 28 Frontend Instance timer\footnote{Google Cloud Platforms ‘frontend instance’ blir opprettet ved at en applikasjon får en forespørsel, og denne instance vil være tilgjengelig for bruk de neste 15 minutter. Alle nye forespørsler i disse neste 15 minutter vil benytte samme frontend instance}, 1GB plass for lagring av logger, 1GB data inn og ut.
+\textbf{Microsoft Azure} leverer kun gratis kvoter i form av trial account. Her får man ressurser for 200\$ som man kan benytte som man selv bestemmer, i løpet av de første 30 dager etter Trial Account blir opprettet.\\
+\textbf{Amazon  Web Services} kommer utstyrt med 1 år ‘free tier’, som inneholder 5GB lagringsplass, 20 000 GET requests og 2 000 Put Requests.\\
+\textbf{Google Cloud Platform} derimot tilbyr daglige gratis kvoter. Dette inkluderer bl.a. 28 Frontend Instance timer\footnote{Google Cloud Platforms ‘frontend instance’ blir opprettet ved at en applikasjon får en forespørsel, og denne instance vil være tilgjengelig for bruk de neste 15 minutter. Alle nye forespørsler i disse neste 15 minutter vil benytte samme frontend instance}, 1GB plass for lagring av logger, 1GB data inn og ut.
 
 
 Ved å bruke Google Cloud Platforms gratis kvoter, vil man kunne ha hosting av mindre trafikkerte nettsider bortimot gratis, og man behøver kun betale for databasen.\\
@@ -33,7 +33,7 @@ Ved å bruke Google Cloud Platforms gratis kvoter, vil man kunne ha hosting av m
 
 
 \newpage
-\section{Programmeringsspråk og Rammeverk}
+\section{Back-end}
 Med dette prosjektet ville jeg videreutvikle min kompetanse innen bruken av web-applikasjons rammeverket Django, basert på programmeringsspråket Python. 
 \subsection{Python}
 Python er et skriptingspråk utviklet av nederlandske Guide van Rossum. Den tidligste versjonen kom frem i 1996 og det har stadig vært i utvikling siden. Python har et formål om å gjøre kode leselig og gjenbrukbar, og har et mindre fokus på ren hastighet. Utover dette har Python et fokus på å gjøre utviklingen, og debuggings fasene av prosjekter så raskt som mulig \cite[s. 11]{bachelor}.
@@ -58,7 +58,7 @@ Den korresponderende funksjon i view vil nå håndtere data fra HTML requestet, 
 
 Data vil bli hentet vha. Djangos Modeller, som er et objekt orientert metode å fremstille den tilkoblede databasen. Når det er klart hvilke data som skal hentes, vil Djangos ORM konvertere Djangos Database API til SQL Query. Den data som resulterer fra spørringen vil bli returnert tilbake til view.
 
-Til slutt vil view samle data og generere den tilhørende template (html), som videre sendes tilbake til browseren.
+Til slutt vil view samle data og generere den tilhørende template (HTML), som videre sendes tilbake til browseren.
 
 
 
@@ -70,7 +70,7 @@ Bootstrap ble først laget av en designer og utvikler hos Twitter i 2010, og har
 Boostrap kommer utstyrt med et Grid system. Dette systemet er basert på å dele opp skjermen inn seksjoner, basert på skjermstørrelsen. Dette gir muligheten av å kunne spesifisere hvordan et element skal oppføre seg i forhold til skjermstørrelsen, dette resulterer i en nettside som fungerer like godt på smartphones, tablets og PCer.
 
 \subsubsection*{Komponenter}
-Rammeverket kommer med en hel rekke komponenter som kan benyttes.  Dette gjelder bl.a. en rekke valg innen navigasjonsmenyer, input bokser, knapper etc. Disse komponentene er videre fult mulig å redigere vha. CSS.
+Rammeverket kommer med en hel rekke komponenter som kan benyttes.  Dette gjelder bl.a. en rekke valg innen navigasjonsmenyer, input bokser, knapper etc. Disse komponentene er videre fult mulig å redigere vha. CSS\footnote{Cascading Style Sheets. Håndterer hvordan HTML elementer vises på skjermen. Kontrollerer layout på en ryddig metode.}.
 
 
 \subsection{JavaScript Biblioteker}
@@ -84,8 +84,8 @@ Fullcalendar har blitt benyttet for å kunne fremstille når bilene er ledig for
 \section{Verktøy}
 \begin{description}
 \item[GitHub]ble benyttet som versjons kontroll underveis i utviklingen. For hver nye feature som skulle introduseres, ble dette utviklet på en egen branch. Når utviklingen av en ny feature fungerte som planlagt, skulle den testes grundig før den ble pushet over på Master branch.
-\item[Google App Engine SDK.] Google Cloud Platform kommer utstyrt med en SDK når man skal arbeide mot Google App Engine. Denne SDK inneholder et lokalt utviklingsmiljø som kjører på samme infrastruktur som det benyttet ved hostingen. Man får også publisering og administrasjons muligheter direkte vha. enkel GUI. Denne har hovedsakelig blitt brukt som et test område underveis i utviklingen, samt. Publisering av nyere versjoner etter hvert som nettsiden har blitt oppdatert.
-\item[JetBrains PyCharm] har blitt brukt som IDE. Denne inneholder en bred rekke hjelpemidler for å gjøre utviklingsprosessen smidigere. Den støtter både utvikling av Django prosjekter og html/css/javascript. I tillegg har den et godt system for autocomplete av kode, og vil generere hint for forbedringer av bl.a. navn på funksjoner, indentering og sørger for at all kode benytter samme navn konvensjon.
+\item[Google App Engine SDK.] Google Cloud Platform kommer utstyrt med en SDK når man skal arbeide mot Google App Engine. Denne SDK inneholder et lokalt utviklingsmiljø som kjører på samme infrastruktur som det benyttet ved hostingen. Man får også publisering og administrasjons muligheter direkte vha. enkel GUI\footnote{Grafisk brukergrensesnitt. Forenkler prosessen ved å jobbe med vinduer og grafiske fremstillinger.}. Denne har hovedsakelig blitt brukt som et test område underveis i utviklingen, samt. Publisering av nyere versjoner etter hvert som nettsiden har blitt oppdatert.
+\item[JetBrains PyCharm] har blitt brukt som IDE\footnote{Integrated Development Environment. Utviklerverktøy, inneholder ofte en editor, compiler og debugger. \cite{ide:what}}. Denne inneholder en bred rekke hjelpemidler for å gjøre utviklingsprosessen smidigere. Den støtter både utvikling av Django prosjekter og html/css/javascript. I tillegg har den et godt system for autocomplete av kode, og vil generere hint for forbedringer av bl.a. navn på funksjoner, indentering og sørger for at all kode benytter samme navn konvensjon.
 \item[LateX.]Under rapportskrivingen har typesettingssystemet LateX blitt brukt får å generere dokumentet. Dette systemet hjelper med å skape en god utforming av hele dokumentet, som gir bedre muligheter for å fokusere på selve skrivingen. LateX gir et såkalt WYSIWYM (What You See Is What You Mean), som beskriver en form for skriving hvor det resulterende dokument bedre representerer den faktiske informasjonen man arbeider med.
 
 

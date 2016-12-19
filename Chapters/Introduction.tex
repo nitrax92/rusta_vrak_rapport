@@ -10,7 +10,7 @@ Rusta Vrak Bilutleige er et lite firma basert i Førde og Jølster i Sogn og Fjo
 
 
 \section{Problemdefinisjon}
-Rusta Vrak Bilutleie har i dag en nettside basert på tjenesten Blogspot [CITATION], dette er en enkel informasjonsside som oppgir informasjon om bilene, priser og kontaktinformasjon. Deretter må kunden ta kontakt enten vha. telefon eller epost for å foreta selve bestilling. Da firmaet blir driftet av én person som et sideprosjekt, kan det være vanskelig å alltid være tilgjengelig, og samtidig ha en oversikt over hvilke biler som er ledige til enhver tid. Dette kan bli forbedret ved å gjøre nettsiden til firmaet mer interaktiv både for kunde og bedrift. 
+Rusta Vrak Bilutleie har i dag en nettside basert på tjenesten Blogspot \cite{rv:current}, dette er en enkel informasjonsside som oppgir informasjon om bilene, priser og kontaktinformasjon. Deretter må kunden ta kontakt enten vha. telefon eller epost for å foreta selve bestilling. Da firmaet blir driftet av én person som et sideprosjekt, kan det være vanskelig å alltid være tilgjengelig, og samtidig ha en oversikt over hvilke biler som er ledige til enhver tid. Dette kan bli forbedret ved å gjøre nettsiden til firmaet mer interaktiv både for kunde og bedrift. 
 
 \subsection{Oppgaven}
 %Lag en nettside for bilutleie firmaet Rusta Vrak Bilutleige. Denne nettsiden skal kunne benyttes av kunder for å finne hvilke biler som passer best for kundens formål, få en oversikt over når de spesifikke bilene er ledige for utleie, og foreta en reservasjon av valgt bil.
@@ -19,22 +19,22 @@ Lag en nettside for bilutleie firmaet Rusta Vrak Bilutleige. Denne nettsiden ska
 
 %Nettsiden skal også kunne benyttes av firmaet for å få en oversikt over bilene som er klar for utleie, kunder som leier eller har leid bil. Det må være mulig å legge til, fjerne og redigere bilene for utleie forløpende.
 
-Nettsiden skal også kunne benyttes av firmaet for å få en oversikt over bilene som er klar for utleie, samt gi en oversikt over kunder som leier og de som har leid bil tidligere. Det må være mulig å legge til, fjerne og redigere bilene som ligger for utleie forløpende.
+Nettsiden skal også kunne benyttes av firmaet for å få en oversikt over bilene som er klar for utleie, samt gi en oversikt over kunder som leier og som har leid bil tidligere. Det må være mulig å legge til, fjerne og redigere bilene som ligger for utleie forløpende.
 
 
 \subsection{Krav} \label{kravliste1}
-I samarbeid med firmaet ble det utarbeidet en liste over krav som var viktig å få med i produktet. Denne kravlisten ble brukt som grunnmuren av planleggingsfasen av prosjektet. 
+I samarbeid med firmaet ble det utarbeidet en liste over krav som var viktig å få med i produktet. Denne kravlisten ble videre brukt som grunnmuren av planleggingsfasen av prosjektet. 
 %I samarbeid med firmaet utarbeidet vi noen krav over hva som er viktig å få med i nettsiden.
 \begin{description}
 \item[Lett å bruke.]Nettsiden skal være enkel å bruke, og skal helst være så intuitiv som mulig. Det betyr at den ikke skal for komplisert i bruk.
 \item[Skalering mellom skjermstørrelser.]Gjøre nettsiden like god å bruke på smartphone som på PCer.
 \item[Selvstendig og Billig.]Firmaet er lite, og derfor skal nettsiden kunne være så selvstendig som mulig. Dvs. arbeid med drift og opprettholdning skal være minimal. Utover dette burde hosting av nettsiden også være rimelig.
-\item[Håndere alle reservasjoner.]Nettsiden skal både fungere som et bestillingsverktøy for kunder, og som et oversiktsverktøy for bedriften. Derfor skal brukere kunne benytte nettsiden for reservasjoner, og ansatte skal ha et administrasjons område hvor det er mulig å legge til nye reservasjoner manuelt.
-\item[Fordel å leie i lange perioder.]Det skal være en fordel å leie over lengre perioder. Systemet må ta hensyn til dette og det skal implementeres en funksjon for å kalkulere prisen i forhold til dette.
+\item[Håndere alle reservasjoner.]Nettsiden skal både fungere som et bestillingsverktøy for kunder, og som et oversiktsverktøy for bedriften. Derfor skal kunder kunne benytte nettsiden for reservasjoner, og ansatte skal ha et administrasjons område hvor det er mulig å legge til nye reservasjoner manuelt.
+\item[Fordel å leie i lange perioder.]Det skal være en fordel å leie over lengre perioder. Systemet må ta hensyn til dette og det skal implementeres en funksjon for å kalkulere prisen i forhold til lengden på leieperiode.
 \end{description}
 
 \section{Litteratur Studie}
-Det aller meste av studie mot denne oppgaven har foregått på internett. Dette inkluderer hovedsakelig bruk av dokumentasjonen til de forskjellige rammeverker og plattformer. Utover dette har det blitt benyttet noen bøker som har fungert som oppslagsverk gjennom hele prosessen.
+Det aller meste av studie mot denne oppgaven har foregått på internett. Dette er hovedsakelig bruk av dokumentasjonen til de forskjellige biblioteker, rammeverker og plattformer. Utover dette har det blitt benyttet noen bøker som har fungert som oppslagsverk gjennom hele prosessen.
 
 \subsubsection*{Bøker}
 \begin{itemize}
@@ -51,9 +51,9 @@ Det første som ble gjort mot denne oppgaven var å lage en plan over alle funks
  
   \item \textbf{Oppsett og Installasjon}
   \begin{enumerate}
-  	\item \textbf{Lokalt Utviklingsmiljø} - Installere Python, oppsett av virtualenv, Installere og integrere JetBrains PyCharm, installere rammeverket Django.
+  	\item \textbf{Lokalt Utviklingsmiljø} - Installere Python, oppsett av virtualenv, installere og integrere JetBrains PyCharm, installere rammeverket Django.
   	\item \textbf{Lokal Database} - Installasjon og opprette kobling mellom Django prosjekt og lokal MySQL database.
-  	\item \textbf{Google Cloud Platform} - Installering og oppsett av kobling mellom lokalt prosjekt og Google Cloud Platform. Dette inkluderer både hosting og database
+  	\item \textbf{Google Cloud Platform} - Installering og oppsett av kobling mellom lokalt prosjekt og Google Cloud Platform. Dette inkluderer både hosting og database.
   \end{enumerate}
   
   \item \textbf{Første Steg i Utviklingen}
@@ -73,7 +73,7 @@ Det første som ble gjort mot denne oppgaven var å lage en plan over alle funks
 	\item \textbf{Reservasjon Håndtering} - Legg til funksjonalitet som stopper en reservasjon fra å krasje med annen allerede eksisterende reservasjon.
 	\item \textbf{Søkefunskjon} - Finne ledige biler på dato.
   \end{enumerate}
-  
+  \newpage
   \item \textbf{Ekstra Funksjonalitet}
 	\begin{enumerate}
 		\item \textbf{Pris Funksjon} - Det skal være en fordel å leie over lengre perioder. Derfor må en funksjon kunne dele ut riktig mengde rabatt over hvor mange dager som er i leieperioden. Videre skal denne kunne runde til nærmeste 5 for å slippe unødvendig småpenger.
@@ -89,7 +89,7 @@ Det første som ble gjort mot denne oppgaven var å lage en plan over alle funks
  \end{enumerate}
  
  
-\subsection{Arbeidsmetode} \label{chap:method}
+\section{Arbeidsmetode} \label{chap:method}
 Utviklingen av dette prosjektet har benyttet en iterativ og inkrementell arbeidsmetode. Denne metoden går ut på å gjennomføre utviklingen stegvis, man begynner utviklingen med et skjelett, som man vil videre legge til litt funksjonalitet, og deretter komme tilbake og legge til mer på toppen av dette igjen. Ved å benytte en slik prosess, blir det mulig å utvikle flere områder på nettsiden samtidig uten at det nødvendigvis krasjer med hverandre i prosessen.
 
 En iterativ metode gjør det mulig å splitte et større prosjekt i mindre, mer håndterlige biter. Planlegging, design, utvikling av kode og testing blir gjennomført i gjenntatte sykluser \cite{method:iterative_fig}. Dermed kan man følge figur \ref{fig:iterative_development} for prosessen gjennom hele utviklingen.
@@ -97,13 +97,13 @@ En iterativ metode gjør det mulig å splitte et større prosjekt i mindre, mer 
  \begin{figure}[htbp]
 	\centering
 		\includegraphics[scale=0.5]{Bilder/iterativ_utvikling.png}
-	\caption[Iterativ Utviklings Diagram]{Oversikt over trinnene per syklus i iterativ utvikling \cite{iterative:development}. } %\ref{fig:iterative}
+	\caption[Iterativ Utviklings Diagram]{Oversikt over trinnene per syklus i iterativ utvikling. Figur hentet fra \cite{iterative:development}. } %\ref{fig:iterative}
 	\label{fig:iterative_development}
 \end{figure}
 
 
 
-\subsection{Rapportens Struktur}
+\section{Rapportens Struktur}
 Denne rapporten har blitt delt inn i 5 kapitler.
 
 Første kapittel introduserer bakgrunn og problemet som skal løses. Her finner man en kravliste utarbeidet i samarbeid med bedriften, og en planlagt fremgangsmåte for å kunne møte disse kravene. Deretter finner man kapittelet som beskriver de valgte teknologiene, og presenterer en liten oversikt over disse. Etter dette kommer kapittelet om selve løsningen, og her vil det endelige resultatet av prosjektet komme frem. Man får her et overblikk over hvordan nettsiden fungerer, både fra et brukerperspektiv, og et administrerende perspektiv. Så finner man et kapittel som diskuterer oppgaven, her drøftes det litt om hvorvidt målet har blitt møtt, og litt om fremtidig arbeid. Til slutt finner man konklusjonen for prosjektet.
